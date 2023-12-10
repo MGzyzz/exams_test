@@ -5,37 +5,41 @@ from docx import Document
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 django.setup()
 
-from tests_for_exams.models import Question, AnswerOption, Subject
+from tests_for_exams.models import Question, AnswerOption, Subject, CorrectAnswer
 
-# Путь к файлу
-file_path = '../static/files/тест 104 вопросов.docx'
+file_path = '../static/files/1.docx'
 
-subject = Subject.objects.get(name="Philosophy")
+subject = Subject.objects.get(name="robot")
 
-# Открытие документа Word
 doc = Document(file_path)
 
 current_question = None
 answer_options = []
+answer_right = []
 
 for p in doc.paragraphs:
     text = p.text.strip()
     if text.startswith('<question>'):
-        # Сохраняем предыдущий вопрос и его ответы
         if current_question:
             current_question.save()
-            AnswerOption.objects.bulk_create(answer_options)
+            for option in answer_options:
+                option.save()
+                if option.text in answer_right:
+                    CorrectAnswer.objects.create(question=current_question, answer=option)
             answer_options = []
+            answer_right = []
 
-        # Создание нового вопроса
         question_text = text[len('<question>'):].strip()
         current_question = Question(text=question_text, subject=subject)
-    elif text.startswith('<вариант>') and current_question is not None:
-        # Добавление варианта ответа
-        option_text = text[len('<вариант>'):].strip()
+    elif text.startswith('<variant>') and current_question is not None:
+        option_text = text[len('<variant>'):].strip()
         answer_options.append(AnswerOption(question=current_question, text=option_text))
+    elif text.startswith('<variantright>') and current_question is not None:
+        answer_right.append(text[len('<variantright>'):].strip())
 
-# Не забываем сохранить последний вопрос и его ответы
-if current_question and answer_options:
+if current_question:
     current_question.save()
-    AnswerOption.objects.bulk_create(answer_options)
+    for option in answer_options:
+        option.save()
+        if option.text in answer_right:
+            CorrectAnswer.objects.create(question=current_question, answer=option)

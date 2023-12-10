@@ -1,21 +1,29 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container mt-4">
-    <h1>Результаты Теста</h1>
-    <p>Количество правильных ответов: {{ correct_answers_count }} из {{ total_questions }}</p>
+    <div class="container mt-4">
+        <h1>Результаты Теста</h1>
+        <p>Количество правильных ответов: {{ correct_answers_count }} из {{ total_questions }}</p>
 
-    {% for item in questions_with_answers %}
-        <div class="card mb-2">
-            <div class="card-body">
-                <h5 class="card-title">{{ item.question.text }}</h5>
-                <p class="card-text">
-                    Ваш ответ: <span style="color: {% if item.is_correct %}green{% else %}red{% endif %};">{{ item.selected_answer.text }}</span>
-                    <br>
-                    Правильный ответ: <span style="color: green;">{{ item.correct_answer.text }}</span>
-                </p>
+        {% for item in questions_with_answers %}
+            <div class="card mb-2">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.question.text }}</h5>
+                    <p class="card-text">
+                        Ваш ответ: <span
+                            style="color: {% if item.is_correct %}green{% else %}red{% endif %};">{{ item.selected_answer.text }}</span>
+                        <br>
+                        Правильный ответ: <span style="color: green;">{{ item.correct_answer.text }}</span>
+                    </p>
+                </div>
             </div>
-        </div>
-    {% endfor %}
-</div>
+        {% endfor %}
+    </div>
+
+    <!-- В шаблоне test_detail.html -->
+
+    <div class="text-center mb-4">
+        <a href="{% url 'generate_docx' test_id %}" class="btn btn-secondary">Скачать правильные ответы</a>
+    </div>
+
 {% endblock %}

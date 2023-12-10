@@ -1,5 +1,7 @@
 import random
 
+from django.http import HttpResponse
+from docx import Document
 from django.contrib import messages
 from django.shortcuts import redirect
 from django.views import View
@@ -111,4 +113,27 @@ class TestResultView(TemplateView):
         context['total_questions'] = total_questions
         context['correct_answers_count'] = correct_answers_count
         context['questions_with_answers'] = questions_with_answers
+        context['test_id'] = test_id
         return context
+
+
+def generate_docx(request, test_id):
+    test = Test.objects.get(id=test_id)
+    document = Document()
+    document.add_heading(test.name, 0)
+
+    user_answers = UserAnswer.objects.filter(user=request.user, question__test=test_id)
+    for user_answer in user_answers:
+        correct_answer = CorrectAnswer.objects.get(question=user_answer.question)
+        if user_answer.selected_answer == correct_answer.answer:
+            document.add_paragraph(user_answer.question.text, style='ListNumber')
+
+            # Создание абзаца для ответа с жирным шрифтом
+            p = document.add_paragraph(style='ListBullet')
+            p.add_run(user_answer.selected_answer.text).bold = True
+
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    response['Content-Disposition'] = 'attachment; filename=correct_answers.docx'
+    document.save(response)
+
+    return response

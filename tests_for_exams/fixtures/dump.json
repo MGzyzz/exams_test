@@ -1,0 +1,6481 @@
+[
+{
+    "model": "tests_for_exams.subject",
+    "pk": 1,
+    "fields": {
+        "name": "Psychology"
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 1,
+    "fields": {
+        "text": "What is attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 3,
+    "fields": {
+        "text": "What is implicit a memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 4,
+    "fields": {
+        "text": "What is short -term memory",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 5,
+    "fields": {
+        "text": "What is sensory memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 6,
+    "fields": {
+        "text": "What is Focused Attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 7,
+    "fields": {
+        "text": "What is Alternating Attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 8,
+    "fields": {
+        "text": "What is Sustained Attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 9,
+    "fields": {
+        "text": "What is Divided Attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 10,
+    "fields": {
+        "text": "What is Selective Attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 11,
+    "fields": {
+        "text": "What is Semantic Memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 12,
+    "fields": {
+        "text": "What is Episodic Memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 13,
+    "fields": {
+        "text": "What is Procedural “body” Memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 14,
+    "fields": {
+        "text": "What is Working Memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 15,
+    "fields": {
+        "text": "Types of memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 16,
+    "fields": {
+        "text": "Function of communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 17,
+    "fields": {
+        "text": "Types of attention?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 18,
+    "fields": {
+        "text": "Forms of communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 19,
+    "fields": {
+        "text": "What is Temperament?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 20,
+    "fields": {
+        "text": "What is verbal communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 21,
+    "fields": {
+        "text": "From which language did the term communication come? and what did it mean",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 22,
+    "fields": {
+        "text": "Types  of communication:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 23,
+    "fields": {
+        "text": "What is non-verbal communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 24,
+    "fields": {
+        "text": "Functions of communication",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 25,
+    "fields": {
+        "text": "What is written communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 26,
+    "fields": {
+        "text": "What is Small Group Communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 27,
+    "fields": {
+        "text": "Forms of communication",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 28,
+    "fields": {
+        "text": "What is Intrapersonal Communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 29,
+    "fields": {
+        "text": "What is Public Communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 30,
+    "fields": {
+        "text": "What is Dyadic Communication?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 31,
+    "fields": {
+        "text": "Whats is Mass Communication",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 32,
+    "fields": {
+        "text": "The Temperament Types",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 33,
+    "fields": {
+        "text": "Characteristic (advantages) of Choleric",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 34,
+    "fields": {
+        "text": "Characteristic (advantages) of Sanguine",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 35,
+    "fields": {
+        "text": "Characteristic (advantages) of Phlegmatic",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 36,
+    "fields": {
+        "text": "Characteristic (advantages) of Melancholic",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 37,
+    "fields": {
+        "text": "Characteristic (weaknesses) of Choleric",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 38,
+    "fields": {
+        "text": "Characteristic (weaknesses) of Melancholic",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 39,
+    "fields": {
+        "text": "Characteristic (weaknesses) of Phlegmatic",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 40,
+    "fields": {
+        "text": "Characteristic (weaknesses) of Sanguine",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 41,
+    "fields": {
+        "text": "Maslow’s hierarchy of needs (levels)",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 42,
+    "fields": {
+        "text": "Self-actualization needs  …..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 43,
+    "fields": {
+        "text": "Love and belongingness needs …..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 44,
+    "fields": {
+        "text": "Safety needs …..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 45,
+    "fields": {
+        "text": "Esteem needs needs …..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 46,
+    "fields": {
+        "text": "Physiological needs …..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 47,
+    "fields": {
+        "text": "What is psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 48,
+    "fields": {
+        "text": "What is cognition?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 49,
+    "fields": {
+        "text": "What is scientific method?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 50,
+    "fields": {
+        "text": "Founders of psychodynamic perspective?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 51,
+    "fields": {
+        "text": "Founders of humanistic perspective?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 52,
+    "fields": {
+        "text": "Founders of behavioral perspective?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 53,
+    "fields": {
+        "text": "Founders of evolutionary perspective?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 54,
+    "fields": {
+        "text": "What is sensation?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 55,
+    "fields": {
+        "text": "What is perception?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 56,
+    "fields": {
+        "text": "What is top down process?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 57,
+    "fields": {
+        "text": "What is bottoms-up?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 58,
+    "fields": {
+        "text": "What is transduction?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 59,
+    "fields": {
+        "text": "What is Just Noticeable Difference Threshold?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 60,
+    "fields": {
+        "text": "What is Sensory Adaptation?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 61,
+    "fields": {
+        "text": "What is Absolute Threshold?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 62,
+    "fields": {
+        "text": "Major senses",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 63,
+    "fields": {
+        "text": "Processes of perception (methods of information processing)",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 64,
+    "fields": {
+        "text": "Principles of sensation?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 65,
+    "fields": {
+        "text": "A style in which conflict resolution, where one side focuses on the needs of the other, rather than the importance of the goal is:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 66,
+    "fields": {
+        "text": "Collaborating style is…",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 67,
+    "fields": {
+        "text": "Which type of conflict is wrong?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 68,
+    "fields": {
+        "text": "The best result of a conflict when both sides win is:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 69,
+    "fields": {
+        "text": "Choose style of conflict where one party focuses on the needs of the other, and not the importance of the goal.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 70,
+    "fields": {
+        "text": "Which  style of conflict you should use if an emergency is looming and there's no room for debat?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 71,
+    "fields": {
+        "text": "What is conflict?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 72,
+    "fields": {
+        "text": "What type of conflict is experienced by a single individual, when his or her own goals, values or roles diverge?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 73,
+    "fields": {
+        "text": "Which of these is considered interpersonal conflict?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 74,
+    "fields": {
+        "text": "A way to resolve conflict through both parties sacrificing their self-interests:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 75,
+    "fields": {
+        "text": "Outcomes of a conflict can be either...",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 76,
+    "fields": {
+        "text": "Which of these intentions, where one side seeks to satisfy its interests regardless of the influence on the other side?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 77,
+    "fields": {
+        "text": "Determine the type of conflict: \"A lawyer may face a conflict of values when representing the accused who is guilty of the charges against him.\"",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 78,
+    "fields": {
+        "text": "Maslow’s hierarchy of needs consists of ________ levels, progressing from ________ needs.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 79,
+    "fields": {
+        "text": "Facial expressions, vocal inflections, and hand gestures are examples of:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 80,
+    "fields": {
+        "text": "Communicating well involves a number of factors, including:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 81,
+    "fields": {
+        "text": "What is the self-esteem?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 82,
+    "fields": {
+        "text": "What is the definition of perception?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 83,
+    "fields": {
+        "text": "What year is considered to be the start of psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 84,
+    "fields": {
+        "text": "Who created the first psychology laboratory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 85,
+    "fields": {
+        "text": "What term did Freud create and developed the field of psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 86,
+    "fields": {
+        "text": "What animals did Pavlov use for his experiment on conditioned reflexes?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 87,
+    "fields": {
+        "text": "What is motivation?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 88,
+    "fields": {
+        "text": "Find the right process of memory",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 89,
+    "fields": {
+        "text": "Find the right process of memory",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 90,
+    "fields": {
+        "text": "Find the right process of memory",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 91,
+    "fields": {
+        "text": "Who is considered to be the “founding father” of psychology in the USA?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 92,
+    "fields": {
+        "text": "What was the first approach in psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 93,
+    "fields": {
+        "text": "What is the object of investigation from the structuralist point of view?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 94,
+    "fields": {
+        "text": "Who developed the functional approach in psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 95,
+    "fields": {
+        "text": "What is the proper object of investigate from the behaviorist point of view?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 96,
+    "fields": {
+        "text": "What did cognitivist and humanistic psychologist criticize in behaviorism?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 97,
+    "fields": {
+        "text": "What does cognitive psychology aim to investigate?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 98,
+    "fields": {
+        "text": "Which psychologycal school argued that psychology should focus on each individual’s conscious experience and aims in life?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 99,
+    "fields": {
+        "text": "What term did Freud create and developed in the field of psychology?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 100,
+    "fields": {
+        "text": "What does psychoanalysis focus on?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 101,
+    "fields": {
+        "text": "How did some psychologists criticize psychoanalysis?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 102,
+    "fields": {
+        "text": "Perception process where we attach meaning to what we have selected and organized called?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 103,
+    "fields": {
+        "text": "Find the barrier to communication",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 104,
+    "fields": {
+        "text": "You should use compromising style if..",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 105,
+    "fields": {
+        "text": "What is long-term memory",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "text": "It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "text": "Is where attention is recalled without practicing, something that happened recently."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "text": "Is the ability to store more information for long periods of time (lifetimes) like phone numbers, names and address’ from when we were kids"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "text": "The ability to look at an item for a second and then remember what it looked like. It is processed approximately 200-500 milliseconds after an item is perceived."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 10,
+    "fields": {
+        "question": 3,
+        "text": "It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 11,
+    "fields": {
+        "question": 3,
+        "text": "Is where attention is recalled without practicing, something that happened recently."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 12,
+    "fields": {
+        "question": 3,
+        "text": "Is the ability to store more information for long periods of time (lifetimes) like phone numbers, names and address’ from when we were kids"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 13,
+    "fields": {
+        "question": 3,
+        "text": "The ability to look at an item for a second and then remember what it looked like. It is processed approximately 200-500 milliseconds after an item is perceived."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 14,
+    "fields": {
+        "question": 3,
+        "text": "We don’t know that we have it, they affect our actions in subtle ways like; you may dislike a new person because they remind you of someone else."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 15,
+    "fields": {
+        "question": 4,
+        "text": "It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 16,
+    "fields": {
+        "question": 4,
+        "text": "Is where memory is recalled without practicing, something that happened recently. It is believed to rely mostly on an acoustic code for storing information."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 17,
+    "fields": {
+        "question": 4,
+        "text": "Is the ability to store more information for long periods of time (lifetimes) like phone numbers, names and address’ from when we were kids"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 18,
+    "fields": {
+        "question": 4,
+        "text": "The ability to look at an item for a second and then remember what it looked like. It is processed approximately 200-500 milliseconds after an item is perceived."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 19,
+    "fields": {
+        "question": 4,
+        "text": "The system of memories that do not enter conscious awareness, including memories for learned skills, habits, and conditioning"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 20,
+    "fields": {
+        "question": 5,
+        "text": "It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 21,
+    "fields": {
+        "question": 5,
+        "text": "I t   s    where memory is recalled without practicing, something that happened recently. It is believed to rely mostly on an acoustic code for storing information."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 22,
+    "fields": {
+        "question": 5,
+        "text": "I t   s    where memory is recalled without practicing, something that happened recently. It is believed to rely mostly on an acoustic code for storing information."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 23,
+    "fields": {
+        "question": 5,
+        "text": "The ability to look at an item for a second and then remember what it looked like. It is processed approximately 200-500 milliseconds after an item is perceived."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 24,
+    "fields": {
+        "question": 6,
+        "text": "respond to discrete visual, auditory, or tactile stimuli (ie: head turning to stimuli)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 25,
+    "fields": {
+        "question": 6,
+        "text": "vigilance (over time) and working memory (active holding and manipulating info)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 26,
+    "fields": {
+        "question": 6,
+        "text": "ability to ignore irrelevant or distracting stimuli"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 27,
+    "fields": {
+        "question": 6,
+        "text": "capacity for mental flexibility"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 28,
+    "fields": {
+        "question": 6,
+        "text": "ability to respond to multiple, simultaneous tasks"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 29,
+    "fields": {
+        "question": 7,
+        "text": "respond to discrete visual, auditory, or tactile stimuli (ie: head turning to stimuli)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 30,
+    "fields": {
+        "question": 7,
+        "text": "vigilance (over time) and working memory (active holding and manipulating info)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 31,
+    "fields": {
+        "question": 7,
+        "text": "ability to ignore irrelevant or distracting stimuli"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 32,
+    "fields": {
+        "question": 7,
+        "text": "capacity for mental flexibility"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 33,
+    "fields": {
+        "question": 7,
+        "text": "ability to respond to multiple, simultaneous tasks"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 34,
+    "fields": {
+        "question": 8,
+        "text": "respond to discrete visual, auditory, or tactile stimuli (ie: head turning to stimuli)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 35,
+    "fields": {
+        "question": 8,
+        "text": "vigilance (over time) and working memory (active holding and manipulating info)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 36,
+    "fields": {
+        "question": 8,
+        "text": "ability to ignore irrelevant or distracting stimuli"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 37,
+    "fields": {
+        "question": 8,
+        "text": "capacity for mental flexibility"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 38,
+    "fields": {
+        "question": 8,
+        "text": "ability to respond to multiple, simultaneous tasks"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 39,
+    "fields": {
+        "question": 9,
+        "text": "respond to discrete visual, auditory, or tactile stimuli (ie: head turning to stimuli)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 40,
+    "fields": {
+        "question": 9,
+        "text": "vigilance (over time) and working memory (active holding and manipulating info)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 41,
+    "fields": {
+        "question": 9,
+        "text": "ability to ignore irrelevant or distracting stimuli"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 42,
+    "fields": {
+        "question": 9,
+        "text": "capacity for mental flexibility"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 43,
+    "fields": {
+        "question": 9,
+        "text": "ability to respond to multiple, simultaneous tasks"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 44,
+    "fields": {
+        "question": 10,
+        "text": "respond to discrete visual, auditory, or tactile stimuli (ie: head turning to stimuli)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 45,
+    "fields": {
+        "question": 10,
+        "text": "vigilance (over time) and working memory (active holding and manipulating info)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 46,
+    "fields": {
+        "question": 10,
+        "text": "ability to ignore irrelevant or distracting stimuli"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 47,
+    "fields": {
+        "question": 10,
+        "text": "capacity for mental flexibility"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 48,
+    "fields": {
+        "question": 10,
+        "text": "ability to respond to multiple, simultaneous tasks"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 49,
+    "fields": {
+        "question": 11,
+        "text": "comprised of reconstruction of past experiences, including sensations, emotions. They usually unfold like movies and are experiences by one’s point of view"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 50,
+    "fields": {
+        "question": 11,
+        "text": "is non-personal, factual knowledge that stands alone"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 51,
+    "fields": {
+        "question": 11,
+        "text": "the capacity to hold information long enough to use it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 52,
+    "fields": {
+        "question": 11,
+        "text": "comprised from learning actions like walking, swimming, riding a bike"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 53,
+    "fields": {
+        "question": 11,
+        "text": "we don’t know that we have it, they affect our actions in subtle ways like; you may dislike a new person because they remind you of someone else."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 54,
+    "fields": {
+        "question": 12,
+        "text": "comprised of reconstruction of past experiences, including sensations, emotions. They usually unfold like movies and are experiences by one’s point of view"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 55,
+    "fields": {
+        "question": 12,
+        "text": "is non-personal, factual knowledge that stands alone"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 56,
+    "fields": {
+        "question": 12,
+        "text": "the capacity to hold information long enough to use it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 57,
+    "fields": {
+        "question": 12,
+        "text": "comprised from learning actions like walking, swimming, riding a bike"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 58,
+    "fields": {
+        "question": 12,
+        "text": "we don’t know that we have it, they affect our actions in subtle ways like; you may dislike a new person because they remind you of someone else."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 59,
+    "fields": {
+        "question": 13,
+        "text": "comprised of reconstruction of past experiences, including sensations, emotions. They usually unfold like movies and are experiences by one’s point of view"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 60,
+    "fields": {
+        "question": 13,
+        "text": "is non-personal, factual knowledge that stands alone"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 61,
+    "fields": {
+        "question": 13,
+        "text": "the capacity to hold information long enough to use it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 62,
+    "fields": {
+        "question": 13,
+        "text": "comprised from learning actions like walking, swimming, riding a bike"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 63,
+    "fields": {
+        "question": 13,
+        "text": "we don’t know that we have it, they affect our actions in subtle ways like; you may dislike a new person because they remind you of someone else."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 64,
+    "fields": {
+        "question": 14,
+        "text": "comprised of reconstruction of past experiences, including sensations, emotions. They usually unfold like movies and are experiences by one’s point of view"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 65,
+    "fields": {
+        "question": 14,
+        "text": "is non-personal, factual knowledge that stands alone"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 66,
+    "fields": {
+        "question": 14,
+        "text": "the capacity to hold information long enough to use it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 67,
+    "fields": {
+        "question": 14,
+        "text": "comprised from learning actions like walking, swimming, riding a bike"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 68,
+    "fields": {
+        "question": 14,
+        "text": "we don’t know that we have it, they affect our actions in subtle ways like; you may dislike a new person because they remind you of someone else."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 69,
+    "fields": {
+        "question": 15,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 70,
+    "fields": {
+        "question": 15,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 71,
+    "fields": {
+        "question": 15,
+        "text": "Informative, Motivation, Persuasive, Aesthetic, Therapeutic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 72,
+    "fields": {
+        "question": 15,
+        "text": "Intrapersonal, Dyadic, Small Group, Public, Mass."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 73,
+    "fields": {
+        "question": 16,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 74,
+    "fields": {
+        "question": 16,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 75,
+    "fields": {
+        "question": 16,
+        "text": "Informative, Motivation, Persuasive, Aesthetic, Therapeutic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 76,
+    "fields": {
+        "question": 16,
+        "text": "Intrapersonal, Dyadic, Small Group, Public, Mass."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 77,
+    "fields": {
+        "question": 17,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 78,
+    "fields": {
+        "question": 17,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 79,
+    "fields": {
+        "question": 17,
+        "text": "Informative, Motivation, Persuasive, Aesthetic, Therapeutic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 80,
+    "fields": {
+        "question": 17,
+        "text": "Intrapersonal, Dyadic, Small Group, Public, Mass."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 81,
+    "fields": {
+        "question": 18,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 82,
+    "fields": {
+        "question": 18,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 83,
+    "fields": {
+        "question": 18,
+        "text": "Informative, Motivation, Persuasive, Aesthetic, Therapeutic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 84,
+    "fields": {
+        "question": 18,
+        "text": "Intrapersonal, Dyadic, Small Group, Public, Mass."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 85,
+    "fields": {
+        "question": 19,
+        "text": "It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 86,
+    "fields": {
+        "question": 19,
+        "text": "Is where attention is recalled without practicing, something that happened recently."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 87,
+    "fields": {
+        "question": 19,
+        "text": "They are our patterns of behaviour… the ways we  usually respond to situations. The innate aspects of an individual’s\tpersonality such as introversion or extroversion is termed Temperament."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 88,
+    "fields": {
+        "question": 19,
+        "text": "The ability to look at an item for a second and then remember what it looked like. It is processed approximately 200-500 milliseconds after an item is perceived."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 89,
+    "fields": {
+        "question": 19,
+        "text": "The system of attention that do not enter conscious awareness, including memories for learned skills, habits, and conditioning"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 90,
+    "fields": {
+        "question": 20,
+        "text": "Any communication without word of mouth, spoken words, conversation and written languages"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 91,
+    "fields": {
+        "question": 20,
+        "text": "A communication happens through any word written or often written sign which refers the languages uses in any medium."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 92,
+    "fields": {
+        "question": 20,
+        "text": "The communication happens through verbally, vocally or through written words which express or convey the message to other."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 93,
+    "fields": {
+        "question": 21,
+        "text": "The term communication has been derived from the Latin word, ‘communis’, which means common."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 94,
+    "fields": {
+        "question": 21,
+        "text": "The term communication has been derived from the from Greek word, ‘communis’, which means common"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 95,
+    "fields": {
+        "question": 21,
+        "text": "The term communication has been derived from the from English word, ‘common’, which means interaction"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 96,
+    "fields": {
+        "question": 22,
+        "text": "1) Verbal Communication (Oral, Written), 2) Non-Verbal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 97,
+    "fields": {
+        "question": 22,
+        "text": "1) Oral Communication (Verbal , Written), 2) Non-Verbal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 98,
+    "fields": {
+        "question": 22,
+        "text": "1) Written Communication (Verbal , Oral), 2) Non-Verbal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 99,
+    "fields": {
+        "question": 22,
+        "text": "1) Non-Verbal  Communication (Verbal , Oral), 2) Verbal Communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 100,
+    "fields": {
+        "question": 23,
+        "text": "The communication happens through verbally, vocally or through written words which express or convey the message to other."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 101,
+    "fields": {
+        "question": 23,
+        "text": "A communication happens through any word written or often written sign which refers the languages uses in any medium is called."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 102,
+    "fields": {
+        "question": 23,
+        "text": "Any communication without word of mouth, spoken words, conversation and written languages"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 103,
+    "fields": {
+        "question": 24,
+        "text": "Interpersonal communication, Dyadic, Small group, Public, Mass- Media"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 104,
+    "fields": {
+        "question": 24,
+        "text": "Non-Verbal  Communication, Verbal , Oral, Verbal Communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 105,
+    "fields": {
+        "question": 24,
+        "text": "Informative, Instructive, Persuasive, Motivation, Aesthetic, Therapeutic, Regulation/Control, Social Interaction"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 106,
+    "fields": {
+        "question": 24,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 107,
+    "fields": {
+        "question": 24,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 108,
+    "fields": {
+        "question": 25,
+        "text": "The communication happens through verbally, vocally or through written words which express or convey the message to other."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 109,
+    "fields": {
+        "question": 25,
+        "text": "A communication happens through any word written or often written sign which refers the languages uses in any medium."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 110,
+    "fields": {
+        "question": 25,
+        "text": "Any communication without word of mouth, spoken words, conversation and written languages"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 111,
+    "fields": {
+        "question": 26,
+        "text": "more than two members involved in communication process will become a group communication. In this communication process, everyone becomes a Source as well as receiver through sharing information and gives feedback to another."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 112,
+    "fields": {
+        "question": 26,
+        "text": "communication, two persons are involved in this communication process. Here the Source becomes a receiver and receiver become Source because of dynamic communication process were the feedback’s are shared between Source and the receiver."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 113,
+    "fields": {
+        "question": 26,
+        "text": "is a communication which happens yourself. Here both Source (sender) and receiver is only one. so, the feedback works without any interruption."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 114,
+    "fields": {
+        "question": 27,
+        "text": "Interpersonal communication, Dyadic, Small group, Public, Mass- Media"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 115,
+    "fields": {
+        "question": 27,
+        "text": "Non-Verbal  Communication, Verbal , Oral, Verbal Communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 116,
+    "fields": {
+        "question": 27,
+        "text": "Informative, Instructive, Persuasive, Motivation, Aesthetic, Therapeutic, Regulation/Control, Social Interaction"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 117,
+    "fields": {
+        "question": 27,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 118,
+    "fields": {
+        "question": 27,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 119,
+    "fields": {
+        "question": 28,
+        "text": "more than two members involved in communication process will become a group communication. In this communication process, everyone becomes a Source as well as receiver through sharing information and gives feedback to another."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 120,
+    "fields": {
+        "question": 28,
+        "text": "communication, two persons are involved in this communication process. Here the Source becomes a receiver and receiver become Source because of dynamic communication process were the feedback’s are shared between Source and the receiver."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 121,
+    "fields": {
+        "question": 28,
+        "text": "is a communication which happens yourself. Here both Source (sender) and receiver is only one. so, the feedback works without any interruption."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 122,
+    "fields": {
+        "question": 29,
+        "text": "more than two members involved in communication process will become a group communication. In this communication process, everyone becomes a Source as well as receiver through sharing information and gives feedback to another."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 123,
+    "fields": {
+        "question": 29,
+        "text": "in this communication, Source or messages from a single person will reach or received by huge number of audience. But in this communication there is no mutual feedbacks between source and receiver like small group communication and it’s only focused on Speaker."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 124,
+    "fields": {
+        "question": 29,
+        "text": "is a communication which happens yourself. Here both Source (sender) and receiver is only one. so, the feedback works without any interruption."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 125,
+    "fields": {
+        "question": 30,
+        "text": "more than two members involved in communication process will become a group communication. In this communication process, everyone becomes a Source as well as receiver through sharing information and gives feedback to another."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 126,
+    "fields": {
+        "question": 30,
+        "text": "in this communication, Source or messages from a single person will reach or received by huge number of audience. But in this communication there is no mutual feedbacks between source and receiver like small group communication and it’s only focused on Speaker."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 127,
+    "fields": {
+        "question": 30,
+        "text": "is a communication which happens yourself. Here both Source (sender) and receiver is only one. so, the feedback works without any interruption."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 128,
+    "fields": {
+        "question": 30,
+        "text": "two persons are involved in this communication process. Here the Source becomes a receiver and receiver become Source because of dynamic communication process were the feedback’s are shared between Source and the receiver."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 129,
+    "fields": {
+        "question": 31,
+        "text": "more than two members involved in communication process will become a group communication. In this communication process, everyone becomes a Source as well as receiver through sharing information and gives feedback to another."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 130,
+    "fields": {
+        "question": 31,
+        "text": "communication, two persons are involved in this communication process. Here the Source becomes a receiver and receiver become Source because of dynamic communication process were the feedback’s are shared between Source and the receiver."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 131,
+    "fields": {
+        "question": 31,
+        "text": "basically have a large number of audience and they are all can’t grouped together in one place so we need certain tool or technology for communication process."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 132,
+    "fields": {
+        "question": 31,
+        "text": "two persons are involved in this communication process. Here the Source becomes a receiver and receiver become Source because of dynamic communication process were the feedback’s are shared between Source and the receiver."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 133,
+    "fields": {
+        "question": 32,
+        "text": "Choleric, phlegmatic, sanguine, menlancholic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 134,
+    "fields": {
+        "question": 32,
+        "text": "Choleric, introvert, sanguine, menlancholic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 135,
+    "fields": {
+        "question": 32,
+        "text": "Choleric, phlegmatic, extrovert, menlancholic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 136,
+    "fields": {
+        "question": 32,
+        "text": "Extrovert, phlegmatic, sanguine, menlancholic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 137,
+    "fields": {
+        "question": 32,
+        "text": "Choleric, phlegmatic, sanguine, extrovert"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 138,
+    "fields": {
+        "question": 33,
+        "text": "Activists(take part in public  events),Opportunist, Hard driving, Optimistic/confident, Perfectionist, Friendly, Tough minded, Fearless, Action oriented"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 139,
+    "fields": {
+        "question": 33,
+        "text": "Peace loving and peace maker, Even tempered, Balanced (adjust to every situation), Kind hearted, Even loving, Do not discriminate, Easy going, Not demanding"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 140,
+    "fields": {
+        "question": 33,
+        "text": "Enjoy life and always happy, Optimistic/confident, Excel in communication oriented things, Talkative, Warm (have sympathy for  people), They are approachable, Sincere and helpful, independent"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 141,
+    "fields": {
+        "question": 33,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics (show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 142,
+    "fields": {
+        "question": 33,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 143,
+    "fields": {
+        "question": 34,
+        "text": "Activists(take part in public  events),Opportunist, Hard driving, Optimistic/confident, Perfectionist, Friendly, Tough minded, Fearless, Action oriented"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 144,
+    "fields": {
+        "question": 34,
+        "text": "Peace loving and peace maker, Even tempered, balanced (adjust to every situation), Kind hearted, Even loving, Do not discriminate, Easy going, Not demanding"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 145,
+    "fields": {
+        "question": 34,
+        "text": "Enjoy life and always happy, Optimistic/confident, Excel in communication-oriented things, Talkative, Warm (have sympathy for people), They are approachable, Sincere and helpful, independent"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 146,
+    "fields": {
+        "question": 34,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics (show beauty in their ding), Gifted (have extraordinary talents), Good decision-making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 147,
+    "fields": {
+        "question": 34,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 148,
+    "fields": {
+        "question": 35,
+        "text": "Activists(take part in public  events),Opportunist, Hard driving, Optimistic/confident, Perfectionist, Friendly, Tough minded, Fearless, Action oriented"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 149,
+    "fields": {
+        "question": 35,
+        "text": "Peace loving and peace maker, Even tempered, Balanced (adjust to every  situation), Kind hearted, Even loving, Do not discriminate, Easy going, Not demanding"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 150,
+    "fields": {
+        "question": 35,
+        "text": "Enjoy life and always happy, Optimistic/confident, Excel in communication  oriented things, Talkative, Warm (have sympathy for  people), They are approachable, Sincere and helpful, independent"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 151,
+    "fields": {
+        "question": 35,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 152,
+    "fields": {
+        "question": 35,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 153,
+    "fields": {
+        "question": 36,
+        "text": "Activists(take part in public  events),Opportunist, Hard driving, Optimistic/confident, Perfectionist, Friendly, Tough minded, Fearless, Action oriented"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 154,
+    "fields": {
+        "question": 36,
+        "text": "Peace loving and peace maker, Even tempered, Balanced (adjust to every  situation), Kind hearted, Even loving, Do not discriminate, Easy going, Not demanding"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 155,
+    "fields": {
+        "question": 36,
+        "text": "Enjoy life and always happy, Optimistic/confident, Excel in communication  oriented things, Talkative, Warm (have sympathy for  people), They are approachable, Sincere and helpful, independent"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 156,
+    "fields": {
+        "question": 36,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 157,
+    "fields": {
+        "question": 36,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 158,
+    "fields": {
+        "question": 37,
+        "text": "Forgetful, Unreliable, Naïve (behave like children or people without experience, they do not want to be alone, Superficial (Surface thinking), Very demanding, Unstable, Exaggeration, Stubborn, does many things at once and does not always complete"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 159,
+    "fields": {
+        "question": 37,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 160,
+    "fields": {
+        "question": 37,
+        "text": "Uninvolving, Not opportunists, Indecisive, Unemotional and inexpressive, Rarely self sacrificing(do not  want to sacrifice themselves  for affection), Unwillingness to become  involved in deep relationships  with people of the opposite sex, Procrastination, Verbal defences"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 161,
+    "fields": {
+        "question": 37,
+        "text": "Quick tempered, Offensive, Proud, Cruel, Rash decision making, Rude, Self centered"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 162,
+    "fields": {
+        "question": 37,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 163,
+    "fields": {
+        "question": 38,
+        "text": "Forgetful, Unreliable, Naïve (behave like children or people without experience, they do not want to be alone, Superficial (Surface thinking), Very demanding, Unstable, Exaggeration, Stubborn, does many things at once and does not always complete"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 164,
+    "fields": {
+        "question": 38,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 165,
+    "fields": {
+        "question": 38,
+        "text": "Uninvolving, Not opportunists, Indecisive, Unemotional and inexpressive, Rarely self sacrificing(do not  want to sacrifice themselves  for affection), Unwillingness to become  involved in deep relationships  with people of the opposite sex, Procrastination, Verbal defences"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 166,
+    "fields": {
+        "question": 38,
+        "text": "Quick tempered, Offensive, Proud, Cruel, Rash decision making, Rude, Self centered"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 167,
+    "fields": {
+        "question": 38,
+        "text": "Lonely/private, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 168,
+    "fields": {
+        "question": 39,
+        "text": "Forgetful, Unreliable, Naïve (behave like children or people without experience, they do not want to be alone, Superficial (Surface thinking), Very demanding, Unstable, Exaggeration, Stubborn, Does many things at once and does not always complete"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 169,
+    "fields": {
+        "question": 39,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 170,
+    "fields": {
+        "question": 39,
+        "text": "Uninvolving, Not opportunists, Indecisive, Unemotional and inexpressive, Rarely self sacrificing(do not  want to sacrifice themselves  for affection), Unwillingness to become  involved in deep relationships  with people of the opposite sex, Procrastination, Verbal defences"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 171,
+    "fields": {
+        "question": 39,
+        "text": "Quick tempered, Offensive, Proud, Cruel, Rash decision making, Rude, Self centered"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 172,
+    "fields": {
+        "question": 39,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 173,
+    "fields": {
+        "question": 40,
+        "text": "Forgetful, Unreliable, Naïve (behave like children or people without experience, they do not want to be alone, Superficial (Surface thinking), Very demanding, Unstable, Exaggeration, Stubborn, Does many things at once and does not always complete"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 174,
+    "fields": {
+        "question": 40,
+        "text": "Perfectionists, Analytical, Great understanding, Self sacrificial, Aesthetics(show beauty in their ding), Gifted(have extraordinary talents), Good decision making people, Good leaders, They are responsible, Faithfulness and loyalty, Dependable, Deep commitment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 175,
+    "fields": {
+        "question": 40,
+        "text": "Uninvolving, Not opportunists, Indecisive, Unemotional and inexpressive, Rarely self sacrificing(do not  want to sacrifice themselves  for affection), Unwillingness to become  involved in deep relationships  with people of the opposite sex, Procrastination, Verbal defences"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 176,
+    "fields": {
+        "question": 40,
+        "text": "Quick tempered, Offensive, Proud, Cruel, Rash decision making, Rude, Self centered"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 177,
+    "fields": {
+        "question": 40,
+        "text": "Lonely/private, Suicidal tendencies, Easily depressed, Some times procrastinate, Revengeful, Emotional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 178,
+    "fields": {
+        "question": 41,
+        "text": "Physiological needs, Safety needs, Love and belongingness needs, Esteem needs, Self-actualization needs"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 179,
+    "fields": {
+        "question": 41,
+        "text": "Autonomy needs, Safety needs, Love and belongingness needs, Esteem needs, Self-actualization needs"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 180,
+    "fields": {
+        "question": 41,
+        "text": "Physiological needs, Competence needs, Love and belongingness needs, Esteem needs, Self-actualization needs"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 181,
+    "fields": {
+        "question": 41,
+        "text": "Physiological needs, Safety needs, Love and belongingness needs, Esteem needs, Autonomy needs"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 182,
+    "fields": {
+        "question": 41,
+        "text": "Physiological needs, Safety needs, Love and belongingness needs, Competence needs, Self-actualization needs"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 183,
+    "fields": {
+        "question": 42,
+        "text": "are the highest level in Maslow's hierarchy, and refer to the realization of a person's potential, self-fulfillment, seeking personal growth and peak experiences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 184,
+    "fields": {
+        "question": 42,
+        "text": "are the fourth level in Maslow’s hierarchy and include self-worth, accomplishment and respect, dignity, achievement, mastery, independence, the desire for reputation or respect from others (e.g., status, prestige)."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 185,
+    "fields": {
+        "question": 42,
+        "text": "these are biological requirements for human survival, e.g. air, food, drink, shelter, clothing, warmth, sex, sleep."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 186,
+    "fields": {
+        "question": 42,
+        "text": "people want to experience order, predictability and control in their lives. These needs can be fulfilled by the family and society (e.g. police, schools, business and medical care). For example, emotional security, financial security (e.g. employment, social welfare), law and order, freedom from fear, social stability, property, health and wellbeing (e.g. safety against accidents and injury)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 187,
+    "fields": {
+        "question": 42,
+        "text": "to a human emotional need for interpersonal relationships, affiliating, connectedness, and being part of a group. Examples of belongingness needs include friendship, intimacy, trust, and acceptance, receiving and giving affection, and love"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 188,
+    "fields": {
+        "question": 43,
+        "text": "are the highest level in Maslow's hierarchy, and refer to the realization of a person's potential, self-fulfillment, seeking personal growth and peak experiences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 189,
+    "fields": {
+        "question": 43,
+        "text": "are the fourth level in Maslow’s hierarchy and include self-worth, accomplishment and respect, dignity, achievement, mastery, independence, the desire for reputation or respect from others (e.g., status, prestige)."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 190,
+    "fields": {
+        "question": 43,
+        "text": "these are biological requirements for human survival, e.g. air, food, drink, shelter, clothing, warmth, sex, sleep."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 191,
+    "fields": {
+        "question": 43,
+        "text": "people want to experience order, predictability and control in their lives. These needs can be fulfilled by the family and society (e.g. police, schools, business and medical care). For example, emotional security, financial security (e.g. employment, social welfare), law and order, freedom from fear, social stability, property, health and wellbeing (e.g. safety against accidents and injury)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 192,
+    "fields": {
+        "question": 43,
+        "text": "to a human emotional need for interpersonal relationships, affiliating, connectedness, and being part of a group. Examples of thise needs include friendship, intimacy, trust, and acceptance, receiving and giving affection, and love"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 193,
+    "fields": {
+        "question": 44,
+        "text": "are the highest level in Maslow's hierarchy, and refer to the realization of a person's potential, self-fulfillment, seeking personal growth and peak experiences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 194,
+    "fields": {
+        "question": 44,
+        "text": "are the fourth level in Maslow’s hierarchy and include self-worth, accomplishment and respect, dignity, achievement, mastery, independence, the desire for reputation or respect from others (e.g., status, prestige)."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 195,
+    "fields": {
+        "question": 44,
+        "text": "these are biological requirements for human survival, e.g. air, food, drink, shelter, clothing, warmth, sex, sleep."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 196,
+    "fields": {
+        "question": 44,
+        "text": "people want to experience order, predictability and control in their lives. These needs can be fulfilled by the family and society (e.g. police, schools, business and medical care). For example, emotional security, financial security (e.g. employment, social welfare), law and order, freedom from fear, social stability, property, health and wellbeing (e.g. safety against accidents and injury)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 197,
+    "fields": {
+        "question": 44,
+        "text": "to a human emotional need for interpersonal relationships, affiliating, connectedness, and being part of a group. Examples of belongingness needs include friendship, intimacy, trust, and acceptance, receiving and giving affection, and love"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 198,
+    "fields": {
+        "question": 45,
+        "text": "are the highest level in Maslow's hierarchy, and refer to the realization of a person's potential, self-fulfillment, seeking personal growth and peak experiences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 199,
+    "fields": {
+        "question": 45,
+        "text": "are the fourth level in Maslow’s hierarchy and include self-worth, accomplishment and respect, dignity, achievement, mastery, independence, the desire for reputation or respect from others (e.g., status, prestige)."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 200,
+    "fields": {
+        "question": 45,
+        "text": "these are biological requirements for human survival, e.g. air, food, drink, shelter, clothing, warmth, sex, sleep."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 201,
+    "fields": {
+        "question": 45,
+        "text": "people want to experience order, predictability and control in their lives. These needs can be fulfilled by the family and society (e.g. police, schools, business and medical care). For example, emotional security, financial security (e.g. employment, social welfare), law and order, freedom from fear, social stability, property, health and wellbeing (e.g. safety against accidents and injury)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 202,
+    "fields": {
+        "question": 45,
+        "text": "to a human emotional need for interpersonal relationships, affiliating, connectedness, and being part of a group. Examples of belongingness needs include friendship, intimacy, trust, and acceptance, receiving and giving affection, and love"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 203,
+    "fields": {
+        "question": 46,
+        "text": "are the highest level in Maslow's hierarchy, and refer to the realization of a person's potential, self-fulfillment, seeking personal growth and peak experiences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 204,
+    "fields": {
+        "question": 46,
+        "text": "are the fourth level in Maslow’s hierarchy and include self-worth, accomplishment and respect, dignity, achievement, mastery, independence, the desire for reputation or respect from others (e.g., status, prestige)."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 205,
+    "fields": {
+        "question": 46,
+        "text": "these are biological requirements for human survival, e.g. air, food, drink, shelter, clothing, warmth, sex, sleep."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 206,
+    "fields": {
+        "question": 46,
+        "text": "people want to experience order, predictability and control in their lives. These needs can be fulfilled by the family and society (e.g. police, schools, business and medical care). For example, emotional security, financial security (e.g. employment, social welfare), law and order, freedom from fear, social stability, property, health and wellbeing (e.g. safety against accidents and injury)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 207,
+    "fields": {
+        "question": 46,
+        "text": "to a human emotional need for interpersonal relationships, affiliating, connectedness, and being part of a group. Examples of belongingness needs include friendship, intimacy, trust, and acceptance, receiving and giving affection, and love"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 208,
+    "fields": {
+        "question": 47,
+        "text": "Psychology is the scientific study of the behavior of individuals and their mental processes."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 209,
+    "fields": {
+        "question": 47,
+        "text": "Psychology is the orderly, analytical process used in all sciences to analyze and solve problem"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 210,
+    "fields": {
+        "question": 47,
+        "text": "Psychology is observable, measurable action. It is the means by which both animals and humans adjust to their environment."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 211,
+    "fields": {
+        "question": 47,
+        "text": "Psychology is refer to the private, internal workings of the mind."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 212,
+    "fields": {
+        "question": 47,
+        "text": "Psychology is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 213,
+    "fields": {
+        "question": 48,
+        "text": "cognition is the scientific study of the behavior of individuals and their mental processes."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 214,
+    "fields": {
+        "question": 48,
+        "text": "cognition is the orderly, analytical process used in all sciences to analyze and solve problem"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 215,
+    "fields": {
+        "question": 48,
+        "text": "cognition is observable, measurable action. It is the means by which both animals and humans adjust to their environment."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 216,
+    "fields": {
+        "question": 48,
+        "text": "cognition is refer to the private, internal workings of the mind."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 217,
+    "fields": {
+        "question": 48,
+        "text": "cognition is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 218,
+    "fields": {
+        "question": 49,
+        "text": "scientific method is the scientific study of the behavior of individuals and their mental processes."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 219,
+    "fields": {
+        "question": 49,
+        "text": "scientific method is the orderly, analytical process used in all sciences to analyze and solve problem"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 220,
+    "fields": {
+        "question": 49,
+        "text": "scientific method is observable, measurable action. It is the means by which both animals and humans adjust to their environment."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 221,
+    "fields": {
+        "question": 49,
+        "text": "scientific method is refer to the private, internal workings of the mind."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 222,
+    "fields": {
+        "question": 49,
+        "text": "c scientific method is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought… It implies withdrawal from some things in order to deal with others."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 223,
+    "fields": {
+        "question": 50,
+        "text": "S.Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 224,
+    "fields": {
+        "question": 50,
+        "text": "J. Watson, B.F.Skinner"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 225,
+    "fields": {
+        "question": 50,
+        "text": "C.Rogers, A.Maslow"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 226,
+    "fields": {
+        "question": 50,
+        "text": "C.Darwin"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 227,
+    "fields": {
+        "question": 50,
+        "text": "Ulric Neisser"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 228,
+    "fields": {
+        "question": 51,
+        "text": "S.Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 229,
+    "fields": {
+        "question": 51,
+        "text": "J. Watson, B.F.Skinner"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 230,
+    "fields": {
+        "question": 51,
+        "text": "C.Rogers, A.Maslow"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 231,
+    "fields": {
+        "question": 51,
+        "text": "C.Darwin"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 232,
+    "fields": {
+        "question": 51,
+        "text": "Ulric Neisser"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 233,
+    "fields": {
+        "question": 52,
+        "text": "S.Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 234,
+    "fields": {
+        "question": 52,
+        "text": "J. Watson, B.F.Skinner"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 235,
+    "fields": {
+        "question": 52,
+        "text": "C.Rogers, A.Maslow"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 236,
+    "fields": {
+        "question": 52,
+        "text": "C.Darwin"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 237,
+    "fields": {
+        "question": 52,
+        "text": "Ulric Neisser"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 238,
+    "fields": {
+        "question": 53,
+        "text": "S.Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 239,
+    "fields": {
+        "question": 53,
+        "text": "J. Watson, B.F.Skinner"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 240,
+    "fields": {
+        "question": 53,
+        "text": "C.Rogers, A.Maslow"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 241,
+    "fields": {
+        "question": 53,
+        "text": "C.Darwin"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 242,
+    "fields": {
+        "question": 53,
+        "text": "Ulric Neisser"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 243,
+    "fields": {
+        "question": 54,
+        "text": "The active process of selecting, organizing, and interpreting the information brought to the brain by the senses"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 244,
+    "fields": {
+        "question": 54,
+        "text": "The passive process of receiving and detecting a stimulus by the nervous system. Process of sensing our environment through taste, sight, sound, touch and smell"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 245,
+    "fields": {
+        "question": 54,
+        "text": "its process begins with the sensory receptors and works its way up to the brain/Use the features of the object itself to process the information"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 246,
+    "fields": {
+        "question": 54,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 247,
+    "fields": {
+        "question": 54,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 248,
+    "fields": {
+        "question": 55,
+        "text": "The active process of selecting, organizing, and interpreting the information brought to the brain by the senses"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 249,
+    "fields": {
+        "question": 55,
+        "text": "The passive process of receiving and detecting a stimulus by the nervous system. Process of sensing our environment through taste, sight, sound, touch and smell"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 250,
+    "fields": {
+        "question": 55,
+        "text": "its process begins with the sensory receptors and works its way up to the brain/Use the features of the object itself to process the information"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 251,
+    "fields": {
+        "question": 55,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 252,
+    "fields": {
+        "question": 55,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 253,
+    "fields": {
+        "question": 56,
+        "text": "The active process of selecting, organizing, and interpreting the information brought to the brain by the senses"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 254,
+    "fields": {
+        "question": 56,
+        "text": "The passive process of receiving and detecting a stimulus by the nervous system. Process of sensing our environment through taste, sight, sound, touch and smell"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 255,
+    "fields": {
+        "question": 56,
+        "text": "its process begins with the sensory receptors and works its way up to the brain/Use the features of the object itself to process the information"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 256,
+    "fields": {
+        "question": 56,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 257,
+    "fields": {
+        "question": 56,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 258,
+    "fields": {
+        "question": 57,
+        "text": "The active process of selecting, organizing, and interpreting the information brought to the brain by the senses"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 259,
+    "fields": {
+        "question": 57,
+        "text": "The passive process of receiving and detecting a stimulus by the nervous system. Process of sensing our environment through taste, sight, sound, touch and smell"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 260,
+    "fields": {
+        "question": 57,
+        "text": "its process begins with the sensory receptors and works its way up to the brain/Use the features of the object itself to process the information"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 261,
+    "fields": {
+        "question": 57,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 262,
+    "fields": {
+        "question": 57,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 263,
+    "fields": {
+        "question": 58,
+        "text": "The active process of selecting, organizing, and interpreting the information brought to the brain by the senses"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 264,
+    "fields": {
+        "question": 58,
+        "text": "The passive process of receiving and detecting a stimulus by the nervous system. Process of sensing our environment through taste, sight, sound, touch and smell"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 265,
+    "fields": {
+        "question": 58,
+        "text": "its process begins with the sensory receptors and works its way up to the brain/Use the features of the object itself to process the information"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 266,
+    "fields": {
+        "question": 58,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 267,
+    "fields": {
+        "question": 58,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 268,
+    "fields": {
+        "question": 59,
+        "text": "The smallest possible strength of a stimulus that can be detected half the time"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 269,
+    "fields": {
+        "question": 59,
+        "text": "The minimum difference that a person can detect between two stimuli 50% of the time."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 270,
+    "fields": {
+        "question": 59,
+        "text": "When exposed to a stimuli over a period of time there will be a diminished sensitivity to it. If a stimulus is constant and unchanging, eventually a person may fail to respond to it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 271,
+    "fields": {
+        "question": 59,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 272,
+    "fields": {
+        "question": 59,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 273,
+    "fields": {
+        "question": 60,
+        "text": "The smallest possible strength of a stimulus that can be detected half the time"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 274,
+    "fields": {
+        "question": 60,
+        "text": "The minimum difference that a person can detect between two stimuli 50% of the time."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 275,
+    "fields": {
+        "question": 60,
+        "text": "When exposed to a stimuli over a period of time there will be a diminished sensitivity to it. If a stimulus is constant and unchanging, eventually a person may fail to respond to it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 276,
+    "fields": {
+        "question": 60,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 277,
+    "fields": {
+        "question": 60,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 278,
+    "fields": {
+        "question": 61,
+        "text": "The smallest possible strength of a stimulus that can be detected half the time"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 279,
+    "fields": {
+        "question": 61,
+        "text": "The minimum difference that a person can detect between two stimuli 50% of the time."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 280,
+    "fields": {
+        "question": 61,
+        "text": "When exposed to a stimuli over a period of time there will be a diminished sensitivity to it. If a stimulus is constant and unchanging, eventually a person may fail to respond to it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 281,
+    "fields": {
+        "question": 61,
+        "text": "Processing information from the senses with higher level mental processes using our experiences and expectations. Using your background knowledge to fill in the gaps"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 282,
+    "fields": {
+        "question": 61,
+        "text": "The process by which a form of physical energy is converted into a coded neural signal that can be processed by the nervous system."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 283,
+    "fields": {
+        "question": 62,
+        "text": "Vision; Hearing; Touch; Smell; Taste; Vestibular; Kinesthetic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 284,
+    "fields": {
+        "question": 62,
+        "text": "Bottoms-up Processing; Top Down Processing."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 285,
+    "fields": {
+        "question": 62,
+        "text": "Transduction; Absolute threshold; Difference threshold; Sensory adaptation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 286,
+    "fields": {
+        "question": 62,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 287,
+    "fields": {
+        "question": 62,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 288,
+    "fields": {
+        "question": 63,
+        "text": "Vision; Hearing; Touch; Smell; Taste; Vestibular; Kinesthetic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 289,
+    "fields": {
+        "question": 63,
+        "text": "Bottoms-up Processing; Top Down Processing."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 290,
+    "fields": {
+        "question": 63,
+        "text": "Transduction; Absolute threshold; Difference threshold; Sensory adaptation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 291,
+    "fields": {
+        "question": 63,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 292,
+    "fields": {
+        "question": 63,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 293,
+    "fields": {
+        "question": 64,
+        "text": "Vision; Hearing; Touch; Smell; Taste; Vestibular; Kinesthetic."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 294,
+    "fields": {
+        "question": 64,
+        "text": "Bottoms-up Processing; Top Down Processing."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 295,
+    "fields": {
+        "question": 64,
+        "text": "Transduction; Absolute threshold; Difference threshold; Sensory adaptation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 296,
+    "fields": {
+        "question": 64,
+        "text": "Episodic, Semantic, Working Memory, Procedural “body”, Implicit."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 297,
+    "fields": {
+        "question": 64,
+        "text": "Focused, Sustained, Selective, Alternating, Divided."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 298,
+    "fields": {
+        "question": 65,
+        "text": "avoiding style"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 299,
+    "fields": {
+        "question": 65,
+        "text": "competing style"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 300,
+    "fields": {
+        "question": 65,
+        "text": "accommodating style"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 301,
+    "fields": {
+        "question": 65,
+        "text": "compromising style"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 302,
+    "fields": {
+        "question": 66,
+        "text": "One where one has low concern for his or her ultimate goal and low concern for his or her relationship with the other."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 303,
+    "fields": {
+        "question": 66,
+        "text": "One where there is high concern for relationships and high concern for achieving one’s own goal."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 304,
+    "fields": {
+        "question": 66,
+        "text": "Where one party focuses on the needs of the other, and not the importance of the goal."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 305,
+    "fields": {
+        "question": 66,
+        "text": "Defined by one party pushing ahead with his or her own mission and goals with no concern for the other party in the conflict."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 306,
+    "fields": {
+        "question": 67,
+        "text": "Intrepersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 307,
+    "fields": {
+        "question": 67,
+        "text": "Interpersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 308,
+    "fields": {
+        "question": 67,
+        "text": "Intragroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 309,
+    "fields": {
+        "question": 67,
+        "text": "Intergroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 310,
+    "fields": {
+        "question": 68,
+        "text": "Competing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 311,
+    "fields": {
+        "question": 68,
+        "text": "Collaborating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 312,
+    "fields": {
+        "question": 68,
+        "text": "Compromise"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 313,
+    "fields": {
+        "question": 68,
+        "text": "Accommodating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 314,
+    "fields": {
+        "question": 69,
+        "text": "Competing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 315,
+    "fields": {
+        "question": 69,
+        "text": "Collaborating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 316,
+    "fields": {
+        "question": 69,
+        "text": "Compromising"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 317,
+    "fields": {
+        "question": 69,
+        "text": "Accommodating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 318,
+    "fields": {
+        "question": 104,
+        "text": "When long-term solutions are needed"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 319,
+    "fields": {
+        "question": 104,
+        "text": "The parties have equal power"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 320,
+    "fields": {
+        "question": 104,
+        "text": "Finding the most creative solution is essential"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 321,
+    "fields": {
+        "question": 104,
+        "text": "When the problem is complex"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 322,
+    "fields": {
+        "question": 70,
+        "text": "Competing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 323,
+    "fields": {
+        "question": 70,
+        "text": "Collaborating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 324,
+    "fields": {
+        "question": 70,
+        "text": "Compromise"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 325,
+    "fields": {
+        "question": 70,
+        "text": "Accommodating"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 326,
+    "fields": {
+        "question": 71,
+        "text": "Two people or groups disagree, and the disagreement causes friction"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 327,
+    "fields": {
+        "question": 71,
+        "text": "Rivalry between two groups or individuals over an outcome both seek"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 328,
+    "fields": {
+        "question": 71,
+        "text": "Resentment between two groups or individuals"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 329,
+    "fields": {
+        "question": 71,
+        "text": "Two people or groups disagreeing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 330,
+    "fields": {
+        "question": 72,
+        "text": "Intrapersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 331,
+    "fields": {
+        "question": 72,
+        "text": "Interpersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 332,
+    "fields": {
+        "question": 72,
+        "text": "Intragroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 333,
+    "fields": {
+        "question": 72,
+        "text": "Intergroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 334,
+    "fields": {
+        "question": 73,
+        "text": "Inner hesitation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 335,
+    "fields": {
+        "question": 73,
+        "text": "Dispute between friends"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 336,
+    "fields": {
+        "question": 73,
+        "text": "Two rival companies competing for sales"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 337,
+    "fields": {
+        "question": 73,
+        "text": "Being bullied by classmates"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 338,
+    "fields": {
+        "question": 75,
+        "text": "Functional and Dysfunctional"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 339,
+    "fields": {
+        "question": 75,
+        "text": "Analytical and Non-analytical"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 340,
+    "fields": {
+        "question": 75,
+        "text": "Serious and Frivolous"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 341,
+    "fields": {
+        "question": 75,
+        "text": "Critical and Uncritical"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 342,
+    "fields": {
+        "question": 76,
+        "text": "Avoidance"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 343,
+    "fields": {
+        "question": 76,
+        "text": "Competition"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 344,
+    "fields": {
+        "question": 76,
+        "text": "Compromise"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 345,
+    "fields": {
+        "question": 76,
+        "text": "Assignment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 346,
+    "fields": {
+        "question": 77,
+        "text": "Intragroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 347,
+    "fields": {
+        "question": 77,
+        "text": "Intrapersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 348,
+    "fields": {
+        "question": 77,
+        "text": "Interpersonal"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 349,
+    "fields": {
+        "question": 77,
+        "text": "Intergroup"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 350,
+    "fields": {
+        "question": 78,
+        "text": "Five; physiological to self-actualization"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 351,
+    "fields": {
+        "question": 78,
+        "text": "Five; self-actualization to physiological"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 352,
+    "fields": {
+        "question": 78,
+        "text": "Four; security to self-actualization"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 353,
+    "fields": {
+        "question": 78,
+        "text": "Three; existence to growth"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 354,
+    "fields": {
+        "question": 79,
+        "text": "Oral communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 355,
+    "fields": {
+        "question": 79,
+        "text": "Non-verbal communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 356,
+    "fields": {
+        "question": 79,
+        "text": "Individual communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 357,
+    "fields": {
+        "question": 79,
+        "text": "Upward communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 358,
+    "fields": {
+        "question": 80,
+        "text": "Sending an accurate message"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 359,
+    "fields": {
+        "question": 80,
+        "text": "Removing communication barriers"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 360,
+    "fields": {
+        "question": 80,
+        "text": "Controlling distractions (or noise)"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 361,
+    "fields": {
+        "question": 80,
+        "text": "All of the above options are correct"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 362,
+    "fields": {
+        "question": 81,
+        "text": "A person's idea of the importance of his personality"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 363,
+    "fields": {
+        "question": 81,
+        "text": "Loneliness is a dangerous emotion"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 364,
+    "fields": {
+        "question": 81,
+        "text": "People who are naïve believe there is no evil in the world and if there is, it"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 365,
+    "fields": {
+        "question": 81,
+        "text": "Someone can be too trusting when it comes to others"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 366,
+    "fields": {
+        "question": 82,
+        "text": "Consists of perceptions and beliefs we have about ourselves."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 367,
+    "fields": {
+        "question": 82,
+        "text": "Is a process consisting of three parts that we use to make sense of messages we encounter."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 368,
+    "fields": {
+        "question": 82,
+        "text": "Influences how we want others to perceive us."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 369,
+    "fields": {
+        "question": 82,
+        "text": "This is where we attach meaning to to what we have selected and organized."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 370,
+    "fields": {
+        "question": 83,
+        "text": "1979"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 371,
+    "fields": {
+        "question": 83,
+        "text": "1879"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 372,
+    "fields": {
+        "question": 83,
+        "text": "1980"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 373,
+    "fields": {
+        "question": 83,
+        "text": "1890"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 374,
+    "fields": {
+        "question": 84,
+        "text": "Abraham Maslow"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 375,
+    "fields": {
+        "question": 84,
+        "text": "William James"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 376,
+    "fields": {
+        "question": 84,
+        "text": "Wilhelm Wundt"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 377,
+    "fields": {
+        "question": 84,
+        "text": "Ivan Pavlov"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 378,
+    "fields": {
+        "question": 85,
+        "text": "Observal behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 379,
+    "fields": {
+        "question": 85,
+        "text": "Geshtalt therapy"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 380,
+    "fields": {
+        "question": 85,
+        "text": "Psychoanalysis"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 381,
+    "fields": {
+        "question": 85,
+        "text": "Cognitive theory"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 382,
+    "fields": {
+        "question": 86,
+        "text": "A dog"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 383,
+    "fields": {
+        "question": 86,
+        "text": "A cat"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 384,
+    "fields": {
+        "question": 86,
+        "text": "A mouse"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 385,
+    "fields": {
+        "question": 86,
+        "text": "A frog"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 386,
+    "fields": {
+        "question": 87,
+        "text": "It is the academic and applied study of mental functions and behaviors."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 387,
+    "fields": {
+        "question": 87,
+        "text": "The capacity to be a aware of control and express ones emotions, and to handle interpersonal relationships judiciously and empathetically."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 388,
+    "fields": {
+        "question": 87,
+        "text": "It is the driving force behind human actions."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 389,
+    "fields": {
+        "question": 87,
+        "text": "It is process refers to the exchange of information (a message) between two or more people."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 390,
+    "fields": {
+        "question": 88,
+        "text": "Exrinsic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 391,
+    "fields": {
+        "question": 88,
+        "text": "Sensory"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 392,
+    "fields": {
+        "question": 88,
+        "text": "Consious"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 393,
+    "fields": {
+        "question": 88,
+        "text": "The ego"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 394,
+    "fields": {
+        "question": 89,
+        "text": "Short-term"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 395,
+    "fields": {
+        "question": 89,
+        "text": "Exrinsic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 396,
+    "fields": {
+        "question": 89,
+        "text": "Consious"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 397,
+    "fields": {
+        "question": 89,
+        "text": "The ego"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 398,
+    "fields": {
+        "question": 90,
+        "text": "Long-term"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 399,
+    "fields": {
+        "question": 90,
+        "text": "Exrinsic"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 400,
+    "fields": {
+        "question": 90,
+        "text": "Consious"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 401,
+    "fields": {
+        "question": 90,
+        "text": "The ego"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 402,
+    "fields": {
+        "question": 91,
+        "text": "William James"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 403,
+    "fields": {
+        "question": 91,
+        "text": "Ivan Pavlov"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 404,
+    "fields": {
+        "question": 91,
+        "text": "Sigmund Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 405,
+    "fields": {
+        "question": 91,
+        "text": "Hermann Abbingaus"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 406,
+    "fields": {
+        "question": 92,
+        "text": "Cognitive theory"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 407,
+    "fields": {
+        "question": 92,
+        "text": "Structuralism"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 408,
+    "fields": {
+        "question": 92,
+        "text": "Behaviorism"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 409,
+    "fields": {
+        "question": 92,
+        "text": "Humanism"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 410,
+    "fields": {
+        "question": 93,
+        "text": "The human's behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 411,
+    "fields": {
+        "question": 93,
+        "text": "The functions of brain"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 412,
+    "fields": {
+        "question": 93,
+        "text": "The human's felling"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 413,
+    "fields": {
+        "question": 93,
+        "text": "The conscious mind"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 414,
+    "fields": {
+        "question": 94,
+        "text": "William James"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 415,
+    "fields": {
+        "question": 94,
+        "text": "Ivan Pavlov"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 416,
+    "fields": {
+        "question": 94,
+        "text": "Sigmund Freud"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 417,
+    "fields": {
+        "question": 94,
+        "text": "Hermann Abbingaus"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 418,
+    "fields": {
+        "question": 95,
+        "text": "Psychology should investigate only people feeling"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 419,
+    "fields": {
+        "question": 95,
+        "text": "Psychology should investigate only people mental processes"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 420,
+    "fields": {
+        "question": 95,
+        "text": "Psychology should investigate only observable behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 421,
+    "fields": {
+        "question": 95,
+        "text": "Psychology should investigate only unconscious mind"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 422,
+    "fields": {
+        "question": 96,
+        "text": "Psychology should investigate only observable behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 423,
+    "fields": {
+        "question": 96,
+        "text": "Behaviorism ignored all the most important and interesting things that go on in our heads."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 424,
+    "fields": {
+        "question": 96,
+        "text": "Behaviorism study only human’s fellings"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 425,
+    "fields": {
+        "question": 96,
+        "text": "Behaviorism study only brain functions"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 426,
+    "fields": {
+        "question": 97,
+        "text": "Focuses on observal behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 427,
+    "fields": {
+        "question": 97,
+        "text": "The emotions and feelings"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 428,
+    "fields": {
+        "question": 97,
+        "text": "The unconscious aspects of personality"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 429,
+    "fields": {
+        "question": 97,
+        "text": "The mind be using computer information processing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 430,
+    "fields": {
+        "question": 98,
+        "text": "Humanism"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 431,
+    "fields": {
+        "question": 98,
+        "text": "Behaviorism"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 432,
+    "fields": {
+        "question": 98,
+        "text": "Cognitive theory"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 433,
+    "fields": {
+        "question": 98,
+        "text": "Psychoanalysis"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 434,
+    "fields": {
+        "question": 99,
+        "text": "Behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 435,
+    "fields": {
+        "question": 99,
+        "text": "Psychoanalysis"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 436,
+    "fields": {
+        "question": 99,
+        "text": "Motivation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 437,
+    "fields": {
+        "question": 99,
+        "text": "Frustration"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 438,
+    "fields": {
+        "question": 100,
+        "text": "Focuses on observal behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 439,
+    "fields": {
+        "question": 100,
+        "text": "The mind be using computer information processing"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 440,
+    "fields": {
+        "question": 100,
+        "text": "The unconscious aspects of personality"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 441,
+    "fields": {
+        "question": 100,
+        "text": "The emotions and feelings"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 442,
+    "fields": {
+        "question": 101,
+        "text": "The method and effectiveness of psychoanalytic treatment"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 443,
+    "fields": {
+        "question": 101,
+        "text": "The method  ignored all the most important and interesting things that go on in our heads."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 444,
+    "fields": {
+        "question": 101,
+        "text": "The method focusing only on human behavior"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 445,
+    "fields": {
+        "question": 101,
+        "text": "The method focusing only on functins of mind"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 446,
+    "fields": {
+        "question": 102,
+        "text": "Selection"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 447,
+    "fields": {
+        "question": 102,
+        "text": "Interpretation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 448,
+    "fields": {
+        "question": 102,
+        "text": "Communication"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 449,
+    "fields": {
+        "question": 102,
+        "text": "Organization"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 450,
+    "fields": {
+        "question": 103,
+        "text": "All of the above options are correct."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 451,
+    "fields": {
+        "question": 103,
+        "text": "The use of jargon."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 452,
+    "fields": {
+        "question": 103,
+        "text": "Cultural differences."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 453,
+    "fields": {
+        "question": 103,
+        "text": "Differences in perception and viewpoint."
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 454,
+    "fields": {
+        "question": 105,
+        "text": "Is the ability to store more information for long periods of time (lifetimes) like phone numbers, names and address’ from when we were kids"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 455,
+    "fields": {
+        "question": 74,
+        "text": "Avoiding"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 456,
+    "fields": {
+        "question": 74,
+        "text": "Accommodation"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 457,
+    "fields": {
+        "question": 74,
+        "text": "Collaboration"
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 458,
+    "fields": {
+        "question": 74,
+        "text": "Compromise"
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "answer": 1
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 2,
+    "fields": {
+        "question": 3,
+        "answer": 14
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 3,
+    "fields": {
+        "question": 4,
+        "answer": 16
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 4,
+    "fields": {
+        "question": 105,
+        "answer": 454
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 5,
+    "fields": {
+        "question": 5,
+        "answer": 4
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 6,
+    "fields": {
+        "question": 6,
+        "answer": 26
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 7,
+    "fields": {
+        "question": 7,
+        "answer": 27
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 8,
+    "fields": {
+        "question": 8,
+        "answer": 25
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 9,
+    "fields": {
+        "question": 9,
+        "answer": 28
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 10,
+    "fields": {
+        "question": 10,
+        "answer": 26
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 11,
+    "fields": {
+        "question": 11,
+        "answer": 50
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 12,
+    "fields": {
+        "question": 12,
+        "answer": 56
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 13,
+    "fields": {
+        "question": 13,
+        "answer": 52
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 14,
+    "fields": {
+        "question": 14,
+        "answer": 51
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 15,
+    "fields": {
+        "question": 15,
+        "answer": 69
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 16,
+    "fields": {
+        "question": 16,
+        "answer": 75
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 17,
+    "fields": {
+        "question": 17,
+        "answer": 78
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 18,
+    "fields": {
+        "question": 18,
+        "answer": 84
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 19,
+    "fields": {
+        "question": 19,
+        "answer": 87
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 20,
+    "fields": {
+        "question": 20,
+        "answer": 92
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 21,
+    "fields": {
+        "question": 21,
+        "answer": 93
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 22,
+    "fields": {
+        "question": 22,
+        "answer": 96
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 23,
+    "fields": {
+        "question": 23,
+        "answer": 102
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 24,
+    "fields": {
+        "question": 24,
+        "answer": 105
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 25,
+    "fields": {
+        "question": 25,
+        "answer": 109
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 26,
+    "fields": {
+        "question": 26,
+        "answer": 111
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 27,
+    "fields": {
+        "question": 27,
+        "answer": 114
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 28,
+    "fields": {
+        "question": 28,
+        "answer": 121
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 29,
+    "fields": {
+        "question": 29,
+        "answer": 123
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 30,
+    "fields": {
+        "question": 30,
+        "answer": 128
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 31,
+    "fields": {
+        "question": 31,
+        "answer": 131
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 32,
+    "fields": {
+        "question": 32,
+        "answer": 133
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 33,
+    "fields": {
+        "question": 33,
+        "answer": 138
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 34,
+    "fields": {
+        "question": 34,
+        "answer": 145
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 35,
+    "fields": {
+        "question": 35,
+        "answer": 149
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 36,
+    "fields": {
+        "question": 36,
+        "answer": 156
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 37,
+    "fields": {
+        "question": 37,
+        "answer": 161
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 38,
+    "fields": {
+        "question": 38,
+        "answer": 167
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 39,
+    "fields": {
+        "question": 39,
+        "answer": 170
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 40,
+    "fields": {
+        "question": 40,
+        "answer": 173
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 41,
+    "fields": {
+        "question": 41,
+        "answer": 178
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 42,
+    "fields": {
+        "question": 42,
+        "answer": 183
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 43,
+    "fields": {
+        "question": 43,
+        "answer": 192
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 44,
+    "fields": {
+        "question": 44,
+        "answer": 196
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 45,
+    "fields": {
+        "question": 45,
+        "answer": 199
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 46,
+    "fields": {
+        "question": 46,
+        "answer": 205
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 47,
+    "fields": {
+        "question": 47,
+        "answer": 208
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 48,
+    "fields": {
+        "question": 48,
+        "answer": 216
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 49,
+    "fields": {
+        "question": 49,
+        "answer": 219
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 50,
+    "fields": {
+        "question": 50,
+        "answer": 223
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 51,
+    "fields": {
+        "question": 51,
+        "answer": 230
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 52,
+    "fields": {
+        "question": 52,
+        "answer": 234
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 53,
+    "fields": {
+        "question": 53,
+        "answer": 241
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 54,
+    "fields": {
+        "question": 54,
+        "answer": 244
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 55,
+    "fields": {
+        "question": 55,
+        "answer": 248
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 56,
+    "fields": {
+        "question": 56,
+        "answer": 256
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 57,
+    "fields": {
+        "question": 57,
+        "answer": 260
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 58,
+    "fields": {
+        "question": 58,
+        "answer": 267
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 59,
+    "fields": {
+        "question": 59,
+        "answer": 269
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 60,
+    "fields": {
+        "question": 60,
+        "answer": 275
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 61,
+    "fields": {
+        "question": 61,
+        "answer": 278
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 62,
+    "fields": {
+        "question": 62,
+        "answer": 283
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 63,
+    "fields": {
+        "question": 63,
+        "answer": 289
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 64,
+    "fields": {
+        "question": 64,
+        "answer": 295
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 65,
+    "fields": {
+        "question": 65,
+        "answer": 300
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 66,
+    "fields": {
+        "question": 66,
+        "answer": 303
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 67,
+    "fields": {
+        "question": 67,
+        "answer": 306
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 68,
+    "fields": {
+        "question": 68,
+        "answer": 311
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 69,
+    "fields": {
+        "question": 69,
+        "answer": 317
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 70,
+    "fields": {
+        "question": 70,
+        "answer": 322
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 71,
+    "fields": {
+        "question": 71,
+        "answer": 326
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 72,
+    "fields": {
+        "question": 72,
+        "answer": 330
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 73,
+    "fields": {
+        "question": 73,
+        "answer": 335
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 74,
+    "fields": {
+        "question": 75,
+        "answer": 338
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 75,
+    "fields": {
+        "question": 76,
+        "answer": 343
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 76,
+    "fields": {
+        "question": 77,
+        "answer": 347
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 77,
+    "fields": {
+        "question": 78,
+        "answer": 350
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 78,
+    "fields": {
+        "question": 79,
+        "answer": 355
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 79,
+    "fields": {
+        "question": 80,
+        "answer": 361
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 80,
+    "fields": {
+        "question": 81,
+        "answer": 362
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 81,
+    "fields": {
+        "question": 82,
+        "answer": 369
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 82,
+    "fields": {
+        "question": 83,
+        "answer": 371
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 83,
+    "fields": {
+        "question": 84,
+        "answer": 376
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 84,
+    "fields": {
+        "question": 85,
+        "answer": 380
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 85,
+    "fields": {
+        "question": 86,
+        "answer": 382
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 86,
+    "fields": {
+        "question": 87,
+        "answer": 388
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 87,
+    "fields": {
+        "question": 88,
+        "answer": 391
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 88,
+    "fields": {
+        "question": 89,
+        "answer": 394
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 89,
+    "fields": {
+        "question": 90,
+        "answer": 398
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 90,
+    "fields": {
+        "question": 91,
+        "answer": 402
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 91,
+    "fields": {
+        "question": 92,
+        "answer": 407
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 92,
+    "fields": {
+        "question": 93,
+        "answer": 413
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 93,
+    "fields": {
+        "question": 94,
+        "answer": 414
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 94,
+    "fields": {
+        "question": 95,
+        "answer": 420
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 95,
+    "fields": {
+        "question": 96,
+        "answer": 423
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 96,
+    "fields": {
+        "question": 97,
+        "answer": 429
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 97,
+    "fields": {
+        "question": 98,
+        "answer": 430
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 98,
+    "fields": {
+        "question": 99,
+        "answer": 435
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 99,
+    "fields": {
+        "question": 100,
+        "answer": 440
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 100,
+    "fields": {
+        "question": 101,
+        "answer": 442
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 101,
+    "fields": {
+        "question": 102,
+        "answer": 447
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 102,
+    "fields": {
+        "question": 103,
+        "answer": 450
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 103,
+    "fields": {
+        "question": 104,
+        "answer": 318
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 104,
+    "fields": {
+        "question": 74,
+        "answer": 458
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 151,
+    "fields": {
+        "user": 1,
+        "question": 4,
+        "selected_answer": 15
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 152,
+    "fields": {
+        "user": 1,
+        "question": 7,
+        "selected_answer": 29
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 153,
+    "fields": {
+        "user": 1,
+        "question": 8,
+        "selected_answer": 34
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 154,
+    "fields": {
+        "user": 1,
+        "question": 9,
+        "selected_answer": 39
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 155,
+    "fields": {
+        "user": 1,
+        "question": 10,
+        "selected_answer": 44
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 156,
+    "fields": {
+        "user": 1,
+        "question": 12,
+        "selected_answer": 54
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 157,
+    "fields": {
+        "user": 1,
+        "question": 15,
+        "selected_answer": 69
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 158,
+    "fields": {
+        "user": 1,
+        "question": 17,
+        "selected_answer": 77
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 159,
+    "fields": {
+        "user": 1,
+        "question": 26,
+        "selected_answer": 111
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 160,
+    "fields": {
+        "user": 1,
+        "question": 29,
+        "selected_answer": 122
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 161,
+    "fields": {
+        "user": 1,
+        "question": 35,
+        "selected_answer": 148
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 162,
+    "fields": {
+        "user": 1,
+        "question": 37,
+        "selected_answer": 158
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 163,
+    "fields": {
+        "user": 1,
+        "question": 38,
+        "selected_answer": 163
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 164,
+    "fields": {
+        "user": 1,
+        "question": 40,
+        "selected_answer": 173
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 165,
+    "fields": {
+        "user": 1,
+        "question": 41,
+        "selected_answer": 178
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 166,
+    "fields": {
+        "user": 1,
+        "question": 46,
+        "selected_answer": 203
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 167,
+    "fields": {
+        "user": 1,
+        "question": 51,
+        "selected_answer": 228
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 168,
+    "fields": {
+        "user": 1,
+        "question": 52,
+        "selected_answer": 233
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 169,
+    "fields": {
+        "user": 1,
+        "question": 53,
+        "selected_answer": 238
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 170,
+    "fields": {
+        "user": 1,
+        "question": 59,
+        "selected_answer": 268
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 171,
+    "fields": {
+        "user": 1,
+        "question": 60,
+        "selected_answer": 273
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 172,
+    "fields": {
+        "user": 1,
+        "question": 66,
+        "selected_answer": 302
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 173,
+    "fields": {
+        "user": 1,
+        "question": 78,
+        "selected_answer": 350
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 174,
+    "fields": {
+        "user": 1,
+        "question": 79,
+        "selected_answer": 354
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 175,
+    "fields": {
+        "user": 1,
+        "question": 80,
+        "selected_answer": 358
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 176,
+    "fields": {
+        "user": 1,
+        "question": 87,
+        "selected_answer": 386
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 177,
+    "fields": {
+        "user": 1,
+        "question": 93,
+        "selected_answer": 410
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 178,
+    "fields": {
+        "user": 1,
+        "question": 94,
+        "selected_answer": 414
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 179,
+    "fields": {
+        "user": 1,
+        "question": 95,
+        "selected_answer": 418
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 180,
+    "fields": {
+        "user": 1,
+        "question": 105,
+        "selected_answer": 454
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 181,
+    "fields": {
+        "user": 1,
+        "question": 9,
+        "selected_answer": 39
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 182,
+    "fields": {
+        "user": 1,
+        "question": 11,
+        "selected_answer": 49
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 183,
+    "fields": {
+        "user": 1,
+        "question": 12,
+        "selected_answer": 54
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 184,
+    "fields": {
+        "user": 1,
+        "question": 16,
+        "selected_answer": 73
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 185,
+    "fields": {
+        "user": 1,
+        "question": 20,
+        "selected_answer": 90
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 186,
+    "fields": {
+        "user": 1,
+        "question": 21,
+        "selected_answer": 93
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 187,
+    "fields": {
+        "user": 1,
+        "question": 25,
+        "selected_answer": 108
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 188,
+    "fields": {
+        "user": 1,
+        "question": 31,
+        "selected_answer": 129
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 189,
+    "fields": {
+        "user": 1,
+        "question": 35,
+        "selected_answer": 148
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 190,
+    "fields": {
+        "user": 1,
+        "question": 36,
+        "selected_answer": 153
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 191,
+    "fields": {
+        "user": 1,
+        "question": 38,
+        "selected_answer": 163
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 192,
+    "fields": {
+        "user": 1,
+        "question": 42,
+        "selected_answer": 183
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 193,
+    "fields": {
+        "user": 1,
+        "question": 50,
+        "selected_answer": 223
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 194,
+    "fields": {
+        "user": 1,
+        "question": 52,
+        "selected_answer": 236
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 195,
+    "fields": {
+        "user": 1,
+        "question": 60,
+        "selected_answer": 273
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 196,
+    "fields": {
+        "user": 1,
+        "question": 62,
+        "selected_answer": 283
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 197,
+    "fields": {
+        "user": 1,
+        "question": 65,
+        "selected_answer": 298
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 198,
+    "fields": {
+        "user": 1,
+        "question": 67,
+        "selected_answer": 306
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 199,
+    "fields": {
+        "user": 1,
+        "question": 70,
+        "selected_answer": 322
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 200,
+    "fields": {
+        "user": 1,
+        "question": 72,
+        "selected_answer": 330
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 201,
+    "fields": {
+        "user": 1,
+        "question": 76,
+        "selected_answer": 342
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 202,
+    "fields": {
+        "user": 1,
+        "question": 79,
+        "selected_answer": 354
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 203,
+    "fields": {
+        "user": 1,
+        "question": 82,
+        "selected_answer": 366
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 204,
+    "fields": {
+        "user": 1,
+        "question": 90,
+        "selected_answer": 398
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 205,
+    "fields": {
+        "user": 1,
+        "question": 92,
+        "selected_answer": 406
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 206,
+    "fields": {
+        "user": 1,
+        "question": 95,
+        "selected_answer": 418
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 207,
+    "fields": {
+        "user": 1,
+        "question": 101,
+        "selected_answer": 442
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 208,
+    "fields": {
+        "user": 1,
+        "question": 102,
+        "selected_answer": 446
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 209,
+    "fields": {
+        "user": 1,
+        "question": 104,
+        "selected_answer": 318
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 210,
+    "fields": {
+        "user": 1,
+        "question": 105,
+        "selected_answer": 454
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 211,
+    "fields": {
+        "user": 1,
+        "question": 7,
+        "selected_answer": 30
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 212,
+    "fields": {
+        "user": 1,
+        "question": 8,
+        "selected_answer": 38
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 213,
+    "fields": {
+        "user": 1,
+        "question": 11,
+        "selected_answer": 50
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 214,
+    "fields": {
+        "user": 1,
+        "question": 12,
+        "selected_answer": 54
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 215,
+    "fields": {
+        "user": 1,
+        "question": 13,
+        "selected_answer": 60
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 216,
+    "fields": {
+        "user": 1,
+        "question": 19,
+        "selected_answer": 85
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 217,
+    "fields": {
+        "user": 1,
+        "question": 24,
+        "selected_answer": 104
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 218,
+    "fields": {
+        "user": 1,
+        "question": 25,
+        "selected_answer": 108
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 219,
+    "fields": {
+        "user": 1,
+        "question": 33,
+        "selected_answer": 139
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 220,
+    "fields": {
+        "user": 1,
+        "question": 34,
+        "selected_answer": 143
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 221,
+    "fields": {
+        "user": 1,
+        "question": 41,
+        "selected_answer": 180
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 222,
+    "fields": {
+        "user": 1,
+        "question": 50,
+        "selected_answer": 225
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 223,
+    "fields": {
+        "user": 1,
+        "question": 51,
+        "selected_answer": 231
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 224,
+    "fields": {
+        "user": 1,
+        "question": 53,
+        "selected_answer": 238
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 225,
+    "fields": {
+        "user": 1,
+        "question": 61,
+        "selected_answer": 280
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 226,
+    "fields": {
+        "user": 1,
+        "question": 63,
+        "selected_answer": 290
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 227,
+    "fields": {
+        "user": 1,
+        "question": 71,
+        "selected_answer": 326
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 228,
+    "fields": {
+        "user": 1,
+        "question": 73,
+        "selected_answer": 336
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 229,
+    "fields": {
+        "user": 1,
+        "question": 75,
+        "selected_answer": 340
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 230,
+    "fields": {
+        "user": 1,
+        "question": 78,
+        "selected_answer": 350
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 231,
+    "fields": {
+        "user": 1,
+        "question": 79,
+        "selected_answer": 354
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 232,
+    "fields": {
+        "user": 1,
+        "question": 82,
+        "selected_answer": 366
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 233,
+    "fields": {
+        "user": 1,
+        "question": 83,
+        "selected_answer": 371
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 234,
+    "fields": {
+        "user": 1,
+        "question": 88,
+        "selected_answer": 392
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 235,
+    "fields": {
+        "user": 1,
+        "question": 90,
+        "selected_answer": 398
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 236,
+    "fields": {
+        "user": 1,
+        "question": 92,
+        "selected_answer": 409
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 237,
+    "fields": {
+        "user": 1,
+        "question": 97,
+        "selected_answer": 426
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 238,
+    "fields": {
+        "user": 1,
+        "question": 100,
+        "selected_answer": 438
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 239,
+    "fields": {
+        "user": 1,
+        "question": 101,
+        "selected_answer": 443
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 240,
+    "fields": {
+        "user": 1,
+        "question": 104,
+        "selected_answer": 321
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 241,
+    "fields": {
+        "user": 1,
+        "question": 5,
+        "selected_answer": 20
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 242,
+    "fields": {
+        "user": 1,
+        "question": 6,
+        "selected_answer": 24
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 243,
+    "fields": {
+        "user": 1,
+        "question": 15,
+        "selected_answer": 69
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 244,
+    "fields": {
+        "user": 1,
+        "question": 16,
+        "selected_answer": 73
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 245,
+    "fields": {
+        "user": 1,
+        "question": 19,
+        "selected_answer": 85
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 246,
+    "fields": {
+        "user": 1,
+        "question": 29,
+        "selected_answer": 122
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 247,
+    "fields": {
+        "user": 1,
+        "question": 30,
+        "selected_answer": 125
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 248,
+    "fields": {
+        "user": 1,
+        "question": 34,
+        "selected_answer": 143
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 249,
+    "fields": {
+        "user": 1,
+        "question": 35,
+        "selected_answer": 148
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 250,
+    "fields": {
+        "user": 1,
+        "question": 40,
+        "selected_answer": 173
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 251,
+    "fields": {
+        "user": 1,
+        "question": 43,
+        "selected_answer": 188
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 252,
+    "fields": {
+        "user": 1,
+        "question": 46,
+        "selected_answer": 203
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 253,
+    "fields": {
+        "user": 1,
+        "question": 54,
+        "selected_answer": 243
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 254,
+    "fields": {
+        "user": 1,
+        "question": 57,
+        "selected_answer": 258
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 255,
+    "fields": {
+        "user": 1,
+        "question": 58,
+        "selected_answer": 263
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 256,
+    "fields": {
+        "user": 1,
+        "question": 60,
+        "selected_answer": 273
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 257,
+    "fields": {
+        "user": 1,
+        "question": 62,
+        "selected_answer": 283
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 258,
+    "fields": {
+        "user": 1,
+        "question": 66,
+        "selected_answer": 302
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 259,
+    "fields": {
+        "user": 1,
+        "question": 70,
+        "selected_answer": 322
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 260,
+    "fields": {
+        "user": 1,
+        "question": 72,
+        "selected_answer": 330
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 261,
+    "fields": {
+        "user": 1,
+        "question": 75,
+        "selected_answer": 338
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 262,
+    "fields": {
+        "user": 1,
+        "question": 78,
+        "selected_answer": 350
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 263,
+    "fields": {
+        "user": 1,
+        "question": 80,
+        "selected_answer": 358
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 264,
+    "fields": {
+        "user": 1,
+        "question": 81,
+        "selected_answer": 362
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 265,
+    "fields": {
+        "user": 1,
+        "question": 84,
+        "selected_answer": 374
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 266,
+    "fields": {
+        "user": 1,
+        "question": 88,
+        "selected_answer": 390
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 267,
+    "fields": {
+        "user": 1,
+        "question": 89,
+        "selected_answer": 394
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 268,
+    "fields": {
+        "user": 1,
+        "question": 95,
+        "selected_answer": 418
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 269,
+    "fields": {
+        "user": 1,
+        "question": 97,
+        "selected_answer": 426
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 270,
+    "fields": {
+        "user": 1,
+        "question": 102,
+        "selected_answer": 446
+    }
+}
+]

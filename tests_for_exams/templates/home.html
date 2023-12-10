@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Добро пожаловать на главную страницу</h1>
+    <div class="text-center mb-4">
+        <a href="{% url 'generate_questions' %}" class="btn btn-primary">Создать Тест по Психологии</a>
+    </div>
+
+    {% if tests %}
+        <div class="list-group">
+            {% for test in tests %}
+                <a href="{% url 'test_detail' test.id %}" class="list-group-item list-group-item-action">
+                    {{ test.name }}
+                </a>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="text-center">Тесты пока не созданы.</p>
+    {% endif %}
+</div>
+{% endblock %}

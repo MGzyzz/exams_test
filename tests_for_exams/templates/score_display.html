@@ -1,0 +1,11 @@
+<!-- score_display.html -->
+
+{% extends "base.html" %} <!-- or your base template -->
+{% block content %}
+    <div class="container mt-4">
+        <h2>Your Score</h2>
+        <p>Congratulations! You scored <strong>{{ score }}</strong> points.</p>
+        <!-- Add more content or links as needed -->
+        <a href="{% url 'home' %}" class="btn btn-primary">Go to Home</a>
+    </div>
+{% endblock %}

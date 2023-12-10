@@ -1,7 +1,11 @@
 asgiref==3.7.2
 Django==5.0
 djangorestframework==3.14.0
+docs==0.1.0
+docx==0.2.4
+lxml==4.9.3
 Pillow==10.1.0
+python-docx==1.1.0
 pytz==2023.3.post1
 sqlparse==0.4.4
 typing_extensions==4.8.0

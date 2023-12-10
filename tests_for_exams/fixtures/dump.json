@@ -6477,5 +6477,41 @@
         "question": 102,
         "selected_answer": 446
     }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$5L3tYmekvC3cnww8yLIdf1$LoRJ9QyHI+SCTzdF7+UXuoRQYquxUHjjufxMH2oaYZg=",
+        "last_login": "2023-12-09T17:10:00.415Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mail.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-12-09T17:09:33.411Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "root1234",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Check_one",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-12-09T17:10:03Z",
+        "groups": [],
+        "user_permissions": []
+    }
 }
 ]

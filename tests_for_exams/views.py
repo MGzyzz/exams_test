@@ -5,7 +5,7 @@ from django.shortcuts import redirect
 from django.views import View
 from django.views.generic import ListView, TemplateView, DetailView
 
-from tests_for_exams.models import Question, AnswerOption, CorrectAnswer, Test, UserAnswer
+from tests_for_exams.models import Question, AnswerOption, CorrectAnswer, Test, UserAnswer, Subject
 
 
 # Create your views here.
@@ -40,9 +40,24 @@ class QuestionListView(ListView):
 
 class GenerateTestView(View):
     def get(self, request, *args, **kwargs):
-        questions = Question.objects.order_by('?')[:30]
+        psychology_subject = Subject.objects.get(name="Psychology")
+
+        questions = Question.objects.filter(subject=psychology_subject).order_by('?')[:30]
         test = Test.objects.create(name="Психология Test {}".format(Test.objects.count() + 1))
         test.questions.add(*questions)
+        return redirect('home')
+
+
+class GeneratePhilosophyTestView(View):
+    def get(self, request, *args, **kwargs):
+        # Получение объекта предмета "Философия"
+        philosophy_subject = Subject.objects.get(name="Philosophy")
+
+        questions = Question.objects.filter(subject=philosophy_subject).order_by('?')[:30]
+
+        test = Test.objects.create(name="Философия Test {}".format(Test.objects.count() + 1))
+        test.questions.add(*questions)
+
         return redirect('home')
 
 

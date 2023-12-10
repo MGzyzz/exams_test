@@ -98,7 +98,9 @@ class TestResultView(TemplateView):
 
         questions_with_answers = []
         for user_answer in user_answers:
+            print(user_answer)
             correct_answer = CorrectAnswer.objects.get(question=user_answer.question)
+            print('work')
             is_correct = user_answer.selected_answer == correct_answer.answer
             if is_correct:
                 correct_answers_count += 1

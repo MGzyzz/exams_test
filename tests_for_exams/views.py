@@ -46,9 +46,16 @@ class GenerateTestView(View):
     def get(self, request, *args, **kwargs):
         psychology_subject = Subject.objects.get(name="Psychology")
 
-        questions = Question.objects.filter(subject=psychology_subject).order_by('?')[:30]
-        test = Test.objects.create(name="Психология Test {}".format(Test.objects.count() + 1))
-        test.questions.add(*questions)
+        # Получаем все вопросы по предмету
+        all_questions = Question.objects.filter(subject=psychology_subject)
+
+        questions_count = min(30, all_questions.count())
+        selected_questions = random.sample(list(all_questions), questions_count)
+
+        test_name = "Психология Test {}".format(Test.objects.count() + 1)
+        test = Test.objects.create(name=test_name)
+        test.questions.add(*selected_questions)
+
         return redirect('home')
 
 

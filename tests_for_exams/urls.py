@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from tests_for_exams.views import QuestionListView, Home, GenerateTestView, GeneratePhilosophyTestView ,TestDetailView, TestResultView, SubmitTestView, generate_docx
+from tests_for_exams.views import *
 
 urlpatterns = [
     path('', Home.as_view(), name='home'),
@@ -11,4 +11,5 @@ urlpatterns = [
     path('test_result/<int:test_id>/', TestResultView.as_view(), name='test_result'),
     path('submit_test/<int:test_id>/', SubmitTestView.as_view(), name='submit_test'),
     path('generate_docx/<int:test_id>/', generate_docx, name='generate_docx'),
+    path('answer_docx', generate_docx_with_correct_answers_by_subject, name='answer_docx'),
 ]

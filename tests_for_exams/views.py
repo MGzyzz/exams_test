@@ -26,6 +26,8 @@ class QuestionListView(ListView):
     context_object_name = 'questions'
     paginate_by = 10
 
+
+
     def post(self, request):
         for key, value in request.POST.items():
             if key.startswith('correct_answer_'):
@@ -136,6 +138,28 @@ def generate_docx(request, test_id):
 
     response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
     response['Content-Disposition'] = 'attachment; filename=correct_answers.docx'
+    document.save(response)
+
+    return response
+
+
+def generate_docx_with_correct_answers_by_subject(request, subject_name='Psychology'):
+    document = Document()
+    document.add_heading(f'Список Вопросов и Правильных Ответов по Предмету: {subject_name}', 0)
+
+    subject = Subject.objects.get(name=subject_name)
+
+    questions = Question.objects.filter(subject=subject)
+    for question in questions:
+        correct_answer = CorrectAnswer.objects.get(question=question)
+
+        document.add_paragraph(question.text, style='ListNumber')
+
+        p = document.add_paragraph(style='ListBullet')
+        p.add_run(correct_answer.answer.text).bold = True
+
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    response['Content-Disposition'] = f'attachment; filename="{subject_name}_correct_answers.docx"'
     document.save(response)
 
     return response

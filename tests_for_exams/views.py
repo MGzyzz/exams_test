@@ -6,6 +6,7 @@ from django.contrib import messages
 from django.shortcuts import redirect
 from django.views import View
 from django.views.generic import ListView, TemplateView, DetailView
+from random import sample
 
 from tests_for_exams.models import Question, AnswerOption, CorrectAnswer, Test, UserAnswer, Subject
 
@@ -46,11 +47,14 @@ class GenerateTestView(View):
     def get(self, request, *args, **kwargs):
         psychology_subject = Subject.objects.get(name="Psychology")
 
-        # Получаем все вопросы по предмету
-        all_questions = Question.objects.filter(subject=psychology_subject)
+        # Получаем ID вопросов, которые уже использовались в других тестах
+        used_question_ids = Test.objects.values_list('questions', flat=True)
+
+        # Получаем все вопросы по предмету, исключая уже использованные
+        all_questions = Question.objects.filter(subject=psychology_subject).exclude(id__in=used_question_ids)
 
         questions_count = min(30, all_questions.count())
-        selected_questions = random.sample(list(all_questions), questions_count)
+        selected_questions = sample(list(all_questions), questions_count)
 
         test_name = "Психология Test {}".format(Test.objects.count() + 1)
         test = Test.objects.create(name=test_name)
@@ -109,8 +113,7 @@ class TestResultView(TemplateView):
         for user_answer in user_answers:
             print(user_answer)
             correct_answer = CorrectAnswer.objects.get(question=user_answer.question)
-            print('work')
-            is_correct = user_answer.selected_answer == correct_answer.answer
+            is_correct = user_answer.selected_answer.text == correct_answer.answer.text
             if is_correct:
                 correct_answers_count += 1
 

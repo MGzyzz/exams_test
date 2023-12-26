@@ -12,4 +12,5 @@ urlpatterns = [
     path('submit_test/<int:test_id>/', SubmitTestView.as_view(), name='submit_test'),
     path('generate_docx/<int:test_id>/', generate_docx, name='generate_docx'),
     path('answer_docx', generate_docx_with_correct_answers_by_subject, name='answer_docx'),
+    path('answer_docx', generate_docx_with_questions_and_answers, name='question_and_answer'),
 ]

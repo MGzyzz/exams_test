@@ -170,3 +170,30 @@ def generate_docx_with_correct_answers_by_subject(request, subject_name='Psychol
     document.save(response)
 
     return response
+
+
+def generate_docx_with_questions_and_answers(request, subject_name='Psychology'):
+    document = Document()
+    document.add_heading(f'Список Вопросов и Ответов по Предмету: {subject_name}', 0)
+
+    # Fetch the subject by name
+    subject = Subject.objects.get(name=subject_name)
+
+    # Fetch questions related to the subject
+    questions = Question.objects.filter(subject=subject)
+    for question in questions:
+        # Add the question text
+        document.add_paragraph(question.text, style='ListNumber')
+
+        # Retrieve and add all answer options for the question
+        answer_options = AnswerOption.objects.filter(question=question)
+        for answer_option in answer_options:
+            p = document.add_paragraph(style='ListBullet')
+            p.add_run(answer_option.text)
+
+    # Configure the response to return a Word document
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    response['Content-Disposition'] = f'attachment; filename="{subject_name}_questions_and_answers.docx"'
+    document.save(response)
+
+    return response

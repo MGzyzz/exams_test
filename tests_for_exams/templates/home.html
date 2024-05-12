@@ -10,16 +10,17 @@
             <div class="text-center mb-4">
                 <div class="row align-items-center">
                     <div class="col-md-3">
-                        <a href="{% url 'generate_questions' %}" class="btn btn-primary">Создать Тест по Психологии</a>
+                        <a href="{% url 'generate_questions' %}" class="btn btn-secondary">Создать Тест по Психологии <span class="text-dark">(Не активна)</span></a>
                     </div>
                     <div class="col-md-3">
                         <a href="{% url 'generate_philosophy_questions' %}" class="btn btn-secondary">Создать Тест по
-                            Философии</a>
+                            Философии <span class="text-dark">(Не активна)</span></a>
                     </div>
                     <div class="col-md-3">
                         <a href="{% url 'generate_ipc' %}" class="btn btn-secondary">Создать Тест по
                             IPC Test</a>
                     </div>
+
                 </div>
             </div>
             <div class="list-group">
@@ -28,6 +29,8 @@
                         {{ test.name }}
                     </a>
                 {% endfor %}
+                                    <a href="{% url 'delete_user_answers' user.id %}" class="btn btn-danger mt-3">Удалить сохраненные ответы</a>
+
             </div>
 {#            <div class="row mt-3">#}
 {#                <div class="col-md-3">#}

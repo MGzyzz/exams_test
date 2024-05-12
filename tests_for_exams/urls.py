@@ -14,4 +14,5 @@ urlpatterns = [
     path('generate_docx/<int:test_id>/', generate_docx, name='generate_docx'),
     path('answer_docx', generate_docx_with_correct_answers_by_subject, name='answer_docx'),
     path('answer_docx_and_questions/', generate_docx_with_questions_and_answers, name='question_and_answer'),
+    path('delete_user_answers/<int:id>', DeleteIPCAnswers.as_view(), name='delete_user_answers')
 ]

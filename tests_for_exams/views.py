@@ -1,9 +1,11 @@
 from random import shuffle
-from django.http import HttpResponse
+
+from django.contrib.auth import get_user_model
+from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse_lazy
 from docx import Document
 from django.contrib import messages
-from django.shortcuts import redirect
+from django.shortcuts import redirect, get_object_or_404
 from django.views import View
 from django.views.generic import ListView, TemplateView, DetailView, DeleteView
 from random import sample
@@ -92,6 +94,16 @@ class GenerateIPCTestView(View):
         test.questions.add(*questions)
 
         return redirect('home')
+
+
+class DeleteIPCAnswers(View):
+    model = UserAnswer
+    pk_url_kwarg = 'id'
+
+    def get(self, request, *args, **kwargs):
+        user_id = kwargs[self.pk_url_kwarg]
+        self.model.objects.filter(user_id=user_id).delete()
+        return HttpResponseRedirect('/')
 
 class TestDetailView(DetailView):
     model = Test

@@ -1,0 +1,4864 @@
+[
+{
+    "model": "tests_for_exams.subject",
+    "pk": 1,
+    "fields": {
+        "name": "IPC"
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 1,
+    "fields": {
+        "text": "Which data type is best for storing character?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 2,
+    "fields": {
+        "text": "Choose the variant of the code that contains the mistake where loss of bit?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 3,
+    "fields": {
+        "text": "Which data type is best for variable which can take two values: yes or no?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 4,
+    "fields": {
+        "text": "What value will the variable \"x\" take: \"float x = 10 / 7;\"?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 5,
+    "fields": {
+        "text": "What is the correct value to return to the operating system upon the successful completion of a program?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 6,
+    "fields": {
+        "text": "What will be the last output of value of the variable \"i\" after executing the code?\r\n\r\nfor (int i = 0; i < 10; i+=3){ \r\n \tcout << i << endl; \r\n}",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 7,
+    "fields": {
+        "text": "Let x be an integer which can take a value of 0 or 1. The statement  if (x = = 0) x = 1; else x = 0; is equivalent to which one of the following?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 8,
+    "fields": {
+        "text": "What is data type char's range limits?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 9,
+    "fields": {
+        "text": "At what value of variable \"A\" is the value of the following expression equal to False?\r\n\r\n(A > 11) || ((A >= 14) || (A <= 10))",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 10,
+    "fields": {
+        "text": "What value will the variable \"x\" take: \"float x = 3.4; x = x + 5 / 2.0;\"?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 11,
+    "fields": {
+        "text": "What value will the variable \"x\" take: \"long x = 3; x = x + 5 % 2;\"?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 12,
+    "fields": {
+        "text": "What is the result of this code:\r\n\r\nint x = 5; if (x % 5 != false)    cout << \"x==5\"; else    cout << \"x=5\";",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 13,
+    "fields": {
+        "text": "What will be the last output of value of the variable \"i\" after executing the code?\r\n\r\nfor (int i = 0; i < 10; i+=2)   cout << i++ << endl;",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 14,
+    "fields": {
+        "text": "What will be the last value of the variable \"i\" after executing the code? int i; for (i = 0; i <= 10; i+=2)   cout << i << endl;",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 15,
+    "fields": {
+        "text": "What is the output of the following program?\r\n\r\nint x = 0; switch(x++) { case 1 : \r\n  cout << \"pre\";  case 2 : \r\n  cout << \"hit\"; default : \r\n  cout << \"ted\"; \r\n}",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 16,
+    "fields": {
+        "text": "Which one is not a loop?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 17,
+    "fields": {
+        "text": "What loops needs a \"semi colon\" (;) after?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 18,
+    "fields": {
+        "text": "What loops will always execute at least once?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 19,
+    "fields": {
+        "text": "What loop requires curly braces? \"{}\"",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 20,
+    "fields": {
+        "text": "Which loop is correct?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 21,
+    "fields": {
+        "text": "Which looping process checks the test condition at the end of the loop?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 22,
+    "fields": {
+        "text": "A \"continue\" statement causes execution to skip to",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 23,
+    "fields": {
+        "text": "In a group of nested loops, which loop is executed the most number of times?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 24,
+    "fields": {
+        "text": "Which looping process is best used when the number of iterations is known?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 25,
+    "fields": {
+        "text": "If there is more than one statement in the block of a for loop, which of the following must be placed at the beginning and the ending of the loop block?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 26,
+    "fields": {
+        "text": "What is correct syntax of \"for\" loop?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 27,
+    "fields": {
+        "text": "Can a for loop contain another for loop?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 28,
+    "fields": {
+        "text": "The keyword 'break' cannot be simply used within _________",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 29,
+    "fields": {
+        "text": "Which keyword is used to come out of a loop only for that iteration?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 30,
+    "fields": {
+        "text": "The _____ in switch statement is used to terminate the current sequence.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 31,
+    "fields": {
+        "text": "Which for loop is correct?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 32,
+    "fields": {
+        "text": "The segment of code below will result in:\r\n\r\nfor (int i = 1; i <= 3;) cout << 'A';",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 33,
+    "fields": {
+        "text": "Which of the following is the proper syntax of a for loop in C++?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 34,
+    "fields": {
+        "text": "The statement i++; is equivalent to",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 35,
+    "fields": {
+        "text": "A single value in an array is addressed by specifying… Please select the best answer.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 36,
+    "fields": {
+        "text": "Which of the following is a valid C++ array definition? Please select the best answer.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 37,
+    "fields": {
+        "text": "The subscript (or index) of an array can be…",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 38,
+    "fields": {
+        "text": "In the statement: \"a[3] = 5;\", which of the following is the index value?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 39,
+    "fields": {
+        "text": "An array can store a group of values, but the values must be…",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 40,
+    "fields": {
+        "text": "What is the last legal \"index\" that can be used with the following array?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 41,
+    "fields": {
+        "text": "What are the valid indexes for the array shown below? int b_Array[15];",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 42,
+    "fields": {
+        "text": "Which of the following correctly declares an array?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 43,
+    "fields": {
+        "text": "Which of the following correctly accesses the seventh (7th) element stored in 'foo', an array with 100 elements?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 44,
+    "fields": {
+        "text": "Which of the following gives the memory address of the first element in the array?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 45,
+    "fields": {
+        "text": "Which of the following is a two-dimensional array?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 46,
+    "fields": {
+        "text": "If you need a function that will handle multi-dimensional arrays, you must specify the following sizes inside the square brackets.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 47,
+    "fields": {
+        "text": "A two dimension array can also be thought of as",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 48,
+    "fields": {
+        "text": "What is the output of the following code?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 49,
+    "fields": {
+        "text": "Array int a[3][4][5][2][7]; is given. How many dimensions does it have? Please enter the right number.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 50,
+    "fields": {
+        "text": "In function's parameter list arguments are separated by character/symbol:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 51,
+    "fields": {
+        "text": "What function's declaration is right?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 52,
+    "fields": {
+        "text": "What output is produced by the segment of code shown below: void plus(int& x){x++;} int main() {     int a = 5;     plus(a);     cout<<a;",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 53,
+    "fields": {
+        "text": "What is the best to keep that number of arguments in function? Please enter number:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 54,
+    "fields": {
+        "text": "What is the operator used for dereferencing or indirection?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 55,
+    "fields": {
+        "text": "A pointer variable store a/an",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 56,
+    "fields": {
+        "text": "What do you use the \"new\" command in C++ for?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 57,
+    "fields": {
+        "text": "Which of the following operations cannot (NOT) be performed on pointers?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 58,
+    "fields": {
+        "text": "Which of the following is the right syntax for declaring the pointer \"p\"?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 59,
+    "fields": {
+        "text": "Which of the following is the right syntax to de-allocate a single dimensional array  of integer pointer dynamically?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 60,
+    "fields": {
+        "text": "If a pointer \"ptr\" is of integer type which is referencing the two variables of integer type one by one, then It will  get  the address of which one?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 61,
+    "fields": {
+        "text": "Which of the following is the right syntax to allocate the memory dynamically?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 62,
+    "fields": {
+        "text": "Which of the following is the right syntax to de-allocate the dynamic memory?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 63,
+    "fields": {
+        "text": "Operator is used to access value of the variable whose address is  stored in pointer:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 64,
+    "fields": {
+        "text": "What is a variable that is used to store a memory address?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 65,
+    "fields": {
+        "text": "Which of the following below statement(s) is true about pointers?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 66,
+    "fields": {
+        "text": "Problem that occur when pointers are not used or freed correctly  is _______ .",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 67,
+    "fields": {
+        "text": "What is NOT right for Pointer to pointer?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 68,
+    "fields": {
+        "text": "Dynamic 2-dim array declaration, please select right:",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 69,
+    "fields": {
+        "text": "What is the output of the following program segment?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 70,
+    "fields": {
+        "text": "Which of the following is NOT an advantage of typedef?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 71,
+    "fields": {
+        "text": "What keyword is used to assign alias names to any datatype?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 72,
+    "fields": {
+        "text": "What is NOT right for Pointer to function?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 73,
+    "fields": {
+        "text": "What is NOT right for Function pointers?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 74,
+    "fields": {
+        "text": "What is NOT function from \"cstring\" library?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 75,
+    "fields": {
+        "text": "It is a function will append a copy of the source string to the end of destination string.",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 76,
+    "fields": {
+        "text": "What is the output of the code below: char src[] = \"funforfuns\"; char dest[14]; strncpy(dest, src, 3); cout << dest;",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 77,
+    "fields": {
+        "text": "What is the output of the code below: char src[20] = \"coding is \"; char dest[20] = \"easy\"; strcat(src,dest); cout << src;",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 78,
+    "fields": {
+        "text": "Structure within a structure is called ......",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 79,
+    "fields": {
+        "text": "Which of the following cannot be a structure member?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 80,
+    "fields": {
+        "text": "The data elements in the structure are also known as what?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 81,
+    "fields": {
+        "text": "Which of the following statements is true about C++ structs?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 82,
+    "fields": {
+        "text": "Which of the following accesses a variable in structure b?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 83,
+    "fields": {
+        "text": "Which properly declares a variable of struct foo?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 84,
+    "fields": {
+        "text": "What should be output of below part of code?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.question",
+    "pk": 85,
+    "fields": {
+        "text": "Consider the following C++ code. What is preventing it from compiling?",
+        "subject": 1,
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "text": "double",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "text": "char",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "text": "integer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 4,
+    "fields": {
+        "question": 1,
+        "text": "bool",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 5,
+    "fields": {
+        "question": 2,
+        "text": "float x; int y; x = x + y;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 6,
+    "fields": {
+        "question": 2,
+        "text": "float x; float y; x = x - y;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 7,
+    "fields": {
+        "question": 2,
+        "text": "float x; float y; y = x + y;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 8,
+    "fields": {
+        "question": 2,
+        "text": "float x; int y; y = x + y;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 9,
+    "fields": {
+        "question": 3,
+        "text": "double",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 10,
+    "fields": {
+        "question": 3,
+        "text": "char",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 11,
+    "fields": {
+        "question": 3,
+        "text": "integer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 12,
+    "fields": {
+        "question": 3,
+        "text": "bool",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 13,
+    "fields": {
+        "question": 4,
+        "text": "1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 14,
+    "fields": {
+        "question": 4,
+        "text": "1.42857",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 15,
+    "fields": {
+        "question": 4,
+        "text": "1.5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 16,
+    "fields": {
+        "question": 4,
+        "text": "0.7",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 17,
+    "fields": {
+        "question": 5,
+        "text": "1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 18,
+    "fields": {
+        "question": 5,
+        "text": "-1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 19,
+    "fields": {
+        "question": 5,
+        "text": "0",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 20,
+    "fields": {
+        "question": 5,
+        "text": "None of the presented",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 21,
+    "fields": {
+        "question": 6,
+        "text": "8",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 22,
+    "fields": {
+        "question": 6,
+        "text": "12",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 23,
+    "fields": {
+        "question": 6,
+        "text": "6",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 24,
+    "fields": {
+        "question": 6,
+        "text": "9",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 25,
+    "fields": {
+        "question": 7,
+        "text": "x = x - 1;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 26,
+    "fields": {
+        "question": 7,
+        "text": "x = 1 + x;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 27,
+    "fields": {
+        "question": 7,
+        "text": "x = 1 % x;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 28,
+    "fields": {
+        "question": 7,
+        "text": "x = 1 - x;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 29,
+    "fields": {
+        "question": 8,
+        "text": "0..256",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 30,
+    "fields": {
+        "question": 8,
+        "text": "-128..127",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 31,
+    "fields": {
+        "question": 8,
+        "text": "0..128",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 32,
+    "fields": {
+        "question": 8,
+        "text": "-256..255",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 33,
+    "fields": {
+        "question": 9,
+        "text": "10",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 34,
+    "fields": {
+        "question": 9,
+        "text": "12",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 35,
+    "fields": {
+        "question": 9,
+        "text": "11",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 36,
+    "fields": {
+        "question": 9,
+        "text": "14",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 37,
+    "fields": {
+        "question": 10,
+        "text": "5.4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 38,
+    "fields": {
+        "question": 10,
+        "text": "2.5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 39,
+    "fields": {
+        "question": 10,
+        "text": "5.9",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 40,
+    "fields": {
+        "question": 10,
+        "text": "8.4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 41,
+    "fields": {
+        "question": 11,
+        "text": "5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 42,
+    "fields": {
+        "question": 11,
+        "text": "3",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 43,
+    "fields": {
+        "question": 11,
+        "text": "5.5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 44,
+    "fields": {
+        "question": 11,
+        "text": "4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 45,
+    "fields": {
+        "question": 12,
+        "text": "x=5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 46,
+    "fields": {
+        "question": 12,
+        "text": "x=5 x==5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 47,
+    "fields": {
+        "question": 12,
+        "text": "syntax errors in the code",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 48,
+    "fields": {
+        "question": 13,
+        "text": "12",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 49,
+    "fields": {
+        "question": 13,
+        "text": "10",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 50,
+    "fields": {
+        "question": 13,
+        "text": "8",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 51,
+    "fields": {
+        "question": 13,
+        "text": "9",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 52,
+    "fields": {
+        "question": 14,
+        "text": "12",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 53,
+    "fields": {
+        "question": 14,
+        "text": "10",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 54,
+    "fields": {
+        "question": 14,
+        "text": "8",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 55,
+    "fields": {
+        "question": 14,
+        "text": "9",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 56,
+    "fields": {
+        "question": 15,
+        "text": "prehitted",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 57,
+    "fields": {
+        "question": 15,
+        "text": "ted",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 58,
+    "fields": {
+        "question": 15,
+        "text": "pre",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 59,
+    "fields": {
+        "question": 15,
+        "text": "prehit",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 60,
+    "fields": {
+        "question": 15,
+        "text": "hitted",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 61,
+    "fields": {
+        "question": 16,
+        "text": "have",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 62,
+    "fields": {
+        "question": 16,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 63,
+    "fields": {
+        "question": 16,
+        "text": "do",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 64,
+    "fields": {
+        "question": 16,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 65,
+    "fields": {
+        "question": 17,
+        "text": "repeat",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 66,
+    "fields": {
+        "question": 17,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 67,
+    "fields": {
+        "question": 17,
+        "text": "do",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 68,
+    "fields": {
+        "question": 17,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 69,
+    "fields": {
+        "question": 18,
+        "text": "repeat",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 70,
+    "fields": {
+        "question": 18,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 71,
+    "fields": {
+        "question": 18,
+        "text": "do",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 72,
+    "fields": {
+        "question": 18,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 73,
+    "fields": {
+        "question": 19,
+        "text": "all",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 74,
+    "fields": {
+        "question": 19,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 75,
+    "fields": {
+        "question": 19,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 76,
+    "fields": {
+        "question": 19,
+        "text": "do",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 77,
+    "fields": {
+        "question": 20,
+        "text": "do {//code}while (condition);",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 78,
+    "fields": {
+        "question": 20,
+        "text": "do {//code}while (condition):",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 79,
+    "fields": {
+        "question": 20,
+        "text": "do {//code}while (condition)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 80,
+    "fields": {
+        "question": 20,
+        "text": "do {while(condition); code;}",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 81,
+    "fields": {
+        "question": 21,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 82,
+    "fields": {
+        "question": 21,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 83,
+    "fields": {
+        "question": 21,
+        "text": "do-while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 84,
+    "fields": {
+        "question": 21,
+        "text": "no looping process checks the test condition at the end",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 85,
+    "fields": {
+        "question": 22,
+        "text": "the return 0; statement",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 86,
+    "fields": {
+        "question": 22,
+        "text": "the first statement after the loop",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 87,
+    "fields": {
+        "question": 22,
+        "text": "the statement following the continue statement",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 88,
+    "fields": {
+        "question": 22,
+        "text": "the next iteration of the loop",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 89,
+    "fields": {
+        "question": 23,
+        "text": "the outermost loop",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 90,
+    "fields": {
+        "question": 23,
+        "text": "the innermost loop",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 91,
+    "fields": {
+        "question": 23,
+        "text": "all loops are executed the same number of times",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 92,
+    "fields": {
+        "question": 23,
+        "text": "cannot be determined without knowing the size of the loops",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 93,
+    "fields": {
+        "question": 24,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 94,
+    "fields": {
+        "question": 24,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 95,
+    "fields": {
+        "question": 24,
+        "text": "do-while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 96,
+    "fields": {
+        "question": 24,
+        "text": "all looping processes require that the iterations be known",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 97,
+    "fields": {
+        "question": 25,
+        "text": "parentheses ( )",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 98,
+    "fields": {
+        "question": 25,
+        "text": "braces { }",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 99,
+    "fields": {
+        "question": 25,
+        "text": "brackets [ ]",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 100,
+    "fields": {
+        "question": 25,
+        "text": "arrows < >",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 101,
+    "fields": {
+        "question": 26,
+        "text": "for(initialization;condition; increment//decrement)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 102,
+    "fields": {
+        "question": 26,
+        "text": "for(increment/decrement; initialization; condition)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 103,
+    "fields": {
+        "question": 26,
+        "text": "for(initialization, condition, increment//decrement",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 104,
+    "fields": {
+        "question": 26,
+        "text": "None of These",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 105,
+    "fields": {
+        "question": 27,
+        "text": "Yes",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 106,
+    "fields": {
+        "question": 27,
+        "text": "No",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 107,
+    "fields": {
+        "question": 27,
+        "text": "Compilation Error",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 108,
+    "fields": {
+        "question": 27,
+        "text": "Runtime Error",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 109,
+    "fields": {
+        "question": 28,
+        "text": "do-while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 110,
+    "fields": {
+        "question": 28,
+        "text": "if-else",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 111,
+    "fields": {
+        "question": 28,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 112,
+    "fields": {
+        "question": 28,
+        "text": "while",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 113,
+    "fields": {
+        "question": 29,
+        "text": "break",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 114,
+    "fields": {
+        "question": 29,
+        "text": "continue",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 115,
+    "fields": {
+        "question": 29,
+        "text": "return",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 116,
+    "fields": {
+        "question": 29,
+        "text": "none of the mentioned",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 117,
+    "fields": {
+        "question": 30,
+        "text": "break",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 118,
+    "fields": {
+        "question": 30,
+        "text": "continue",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 119,
+    "fields": {
+        "question": 30,
+        "text": "goto",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 120,
+    "fields": {
+        "question": 30,
+        "text": "default",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 121,
+    "fields": {
+        "question": 31,
+        "text": "for {i=0,i<10,i++}",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 122,
+    "fields": {
+        "question": 31,
+        "text": "for (i=0; i<10; i++)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 123,
+    "fields": {
+        "question": 31,
+        "text": "for (i=0; i<10; i++);",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 124,
+    "fields": {
+        "question": 31,
+        "text": "for (i==0; i<10; i++)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 125,
+    "fields": {
+        "question": 32,
+        "text": "infinite loop",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 126,
+    "fields": {
+        "question": 32,
+        "text": "AAA",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 127,
+    "fields": {
+        "question": 32,
+        "text": "AAAA",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 128,
+    "fields": {
+        "question": 32,
+        "text": "1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 129,
+    "fields": {
+        "question": 33,
+        "text": "for (int i = 0; i < 12) { }",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 130,
+    "fields": {
+        "question": 33,
+        "text": "for (int j = 0; j < 12; j++) { }",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 131,
+    "fields": {
+        "question": 33,
+        "text": "for(int q; q<j; ++) { }",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 132,
+    "fields": {
+        "question": 33,
+        "text": "for(int; int j++; j < 3) { }",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 133,
+    "fields": {
+        "question": 34,
+        "text": "i = i + i;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 134,
+    "fields": {
+        "question": 34,
+        "text": "i = i + 1;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 135,
+    "fields": {
+        "question": 34,
+        "text": "i = i - 1;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 136,
+    "fields": {
+        "question": 34,
+        "text": "i--;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 137,
+    "fields": {
+        "question": 35,
+        "text": "the name of the array followed by the index of the element.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 138,
+    "fields": {
+        "question": 35,
+        "text": "the name of the array ONLY.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 139,
+    "fields": {
+        "question": 35,
+        "text": "the index of the element followed by the name of the array.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 140,
+    "fields": {
+        "question": 35,
+        "text": "the index of the element in the array ONLY.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 141,
+    "fields": {
+        "question": 36,
+        "text": "float $$payments[10];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 142,
+    "fields": {
+        "question": 36,
+        "text": "void numbers[5];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 143,
+    "fields": {
+        "question": 36,
+        "text": "int nums[10];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 144,
+    "fields": {
+        "question": 37,
+        "text": "an integer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 145,
+    "fields": {
+        "question": 37,
+        "text": "a floating point number",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 146,
+    "fields": {
+        "question": 37,
+        "text": "a character",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 147,
+    "fields": {
+        "question": 37,
+        "text": "a negative number",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 148,
+    "fields": {
+        "question": 38,
+        "text": "a",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 149,
+    "fields": {
+        "question": 38,
+        "text": "3",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 150,
+    "fields": {
+        "question": 38,
+        "text": "a[3]",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 151,
+    "fields": {
+        "question": 38,
+        "text": "5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 152,
+    "fields": {
+        "question": 39,
+        "text": "the same data type",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 153,
+    "fields": {
+        "question": 39,
+        "text": "each of a different data type",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 154,
+    "fields": {
+        "question": 39,
+        "text": "constants",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 155,
+    "fields": {
+        "question": 39,
+        "text": "integers",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 156,
+    "fields": {
+        "question": 40,
+        "text": "5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 157,
+    "fields": {
+        "question": 40,
+        "text": "6",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 158,
+    "fields": {
+        "question": 40,
+        "text": "4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 159,
+    "fields": {
+        "question": 41,
+        "text": "0-14",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 160,
+    "fields": {
+        "question": 41,
+        "text": "0-15",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 161,
+    "fields": {
+        "question": 41,
+        "text": "1-15",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 162,
+    "fields": {
+        "question": 41,
+        "text": "1-14",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 163,
+    "fields": {
+        "question": 42,
+        "text": "int anarray[10];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 164,
+    "fields": {
+        "question": 42,
+        "text": "int anarray;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 165,
+    "fields": {
+        "question": 42,
+        "text": "anarray{10};",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 166,
+    "fields": {
+        "question": 42,
+        "text": "array anarray[10];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 167,
+    "fields": {
+        "question": 43,
+        "text": "foo[6];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 168,
+    "fields": {
+        "question": 43,
+        "text": "foo[7];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 169,
+    "fields": {
+        "question": 43,
+        "text": "foo(7);",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 170,
+    "fields": {
+        "question": 43,
+        "text": "foo;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 171,
+    "fields": {
+        "question": 44,
+        "text": "array[0]",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 172,
+    "fields": {
+        "question": 44,
+        "text": "array[1]",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 173,
+    "fields": {
+        "question": 44,
+        "text": "array[2]",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 174,
+    "fields": {
+        "question": 45,
+        "text": "array anarray[20][20];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 175,
+    "fields": {
+        "question": 45,
+        "text": "int anarray[20][20];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 176,
+    "fields": {
+        "question": 45,
+        "text": "int array[20, 20];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 177,
+    "fields": {
+        "question": 45,
+        "text": "char array[20];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 178,
+    "fields": {
+        "question": 46,
+        "text": "All the sizes",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 179,
+    "fields": {
+        "question": 46,
+        "text": "All sizes except the last dimension",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 180,
+    "fields": {
+        "question": 46,
+        "text": "All sizes except the first dimension",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 181,
+    "fields": {
+        "question": 46,
+        "text": "None of the sizes",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 182,
+    "fields": {
+        "question": 47,
+        "text": "A table",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 183,
+    "fields": {
+        "question": 47,
+        "text": "An array of arrays",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 184,
+    "fields": {
+        "question": 47,
+        "text": "A file",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 185,
+    "fields": {
+        "question": 47,
+        "text": "A table and an array of arrays",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 186,
+    "fields": {
+        "question": 48,
+        "text": "11 12 13 14 15 0 0 0 0",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 187,
+    "fields": {
+        "question": 48,
+        "text": "11 12 13 14 15 1 0 0 0",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 188,
+    "fields": {
+        "question": 48,
+        "text": "11 12 13 14 15 0 0 0 1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 189,
+    "fields": {
+        "question": 48,
+        "text": "Compiler Error",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 190,
+    "fields": {
+        "question": 49,
+        "text": "5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 191,
+    "fields": {
+        "question": 49,
+        "text": "4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 192,
+    "fields": {
+        "question": 49,
+        "text": "7",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 193,
+    "fields": {
+        "question": 49,
+        "text": "3",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 194,
+    "fields": {
+        "question": 50,
+        "text": "','",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 195,
+    "fields": {
+        "question": 50,
+        "text": "';'",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 196,
+    "fields": {
+        "question": 50,
+        "text": "' '",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 197,
+    "fields": {
+        "question": 50,
+        "text": "':'",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 198,
+    "fields": {
+        "question": 51,
+        "text": "double squareCircle(double radius, double pi = 3.14)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 199,
+    "fields": {
+        "question": 51,
+        "text": "double squareCircle(double radius, pi = 3.14)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 200,
+    "fields": {
+        "question": 51,
+        "text": "double squareCircle(double pi = 3.14, double radius)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 201,
+    "fields": {
+        "question": 51,
+        "text": "double squareCircle(double pi = 3.14, radius)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 202,
+    "fields": {
+        "question": 52,
+        "text": "6",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 203,
+    "fields": {
+        "question": 52,
+        "text": "5",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 204,
+    "fields": {
+        "question": 52,
+        "text": "7",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 205,
+    "fields": {
+        "question": 52,
+        "text": "0",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 206,
+    "fields": {
+        "question": 53,
+        "text": "3",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 207,
+    "fields": {
+        "question": 53,
+        "text": "2",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 208,
+    "fields": {
+        "question": 53,
+        "text": "1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 209,
+    "fields": {
+        "question": 53,
+        "text": "4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 210,
+    "fields": {
+        "question": 54,
+        "text": "*",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 211,
+    "fields": {
+        "question": 54,
+        "text": "&",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 212,
+    "fields": {
+        "question": 54,
+        "text": "%",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 213,
+    "fields": {
+        "question": 54,
+        "text": "&&",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 214,
+    "fields": {
+        "question": 55,
+        "text": "address of another variable.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 215,
+    "fields": {
+        "question": 55,
+        "text": "value of another value.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 216,
+    "fields": {
+        "question": 55,
+        "text": "value of another variable.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 217,
+    "fields": {
+        "question": 55,
+        "text": "address of another pointer.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 218,
+    "fields": {
+        "question": 56,
+        "text": "Allocate heap memory",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 219,
+    "fields": {
+        "question": 56,
+        "text": "Create new object",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 220,
+    "fields": {
+        "question": 56,
+        "text": "De-reference memory locations",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 221,
+    "fields": {
+        "question": 56,
+        "text": "Create arrays",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 222,
+    "fields": {
+        "question": 57,
+        "text": "Subtraction and Addition",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 223,
+    "fields": {
+        "question": 57,
+        "text": "Subtraction",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 224,
+    "fields": {
+        "question": 57,
+        "text": "Multiplication",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 225,
+    "fields": {
+        "question": 57,
+        "text": "Addition",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 226,
+    "fields": {
+        "question": 58,
+        "text": "int p;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 227,
+    "fields": {
+        "question": 58,
+        "text": "int &p;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 228,
+    "fields": {
+        "question": 58,
+        "text": "int* p;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 229,
+    "fields": {
+        "question": 58,
+        "text": "int p*;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 230,
+    "fields": {
+        "question": 59,
+        "text": "delete ptr;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 231,
+    "fields": {
+        "question": 59,
+        "text": "del ptr [ ] ;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 232,
+    "fields": {
+        "question": 59,
+        "text": "del [ ] ptr;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 233,
+    "fields": {
+        "question": 59,
+        "text": "delete [ ] ptr;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 234,
+    "fields": {
+        "question": 60,
+        "text": "Error",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 235,
+    "fields": {
+        "question": 60,
+        "text": "First One",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 236,
+    "fields": {
+        "question": 60,
+        "text": "Both",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 237,
+    "fields": {
+        "question": 60,
+        "text": "Second One",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 238,
+    "fields": {
+        "question": 61,
+        "text": "int* ptr = new;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 239,
+    "fields": {
+        "question": 61,
+        "text": "int* ptr = new[ ];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 240,
+    "fields": {
+        "question": 61,
+        "text": "int* ptr=new [int];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 241,
+    "fields": {
+        "question": 61,
+        "text": "int* ptr = new int();",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 242,
+    "fields": {
+        "question": 62,
+        "text": "delete ;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 243,
+    "fields": {
+        "question": 62,
+        "text": "delete ptr;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 244,
+    "fields": {
+        "question": 62,
+        "text": "del;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 245,
+    "fields": {
+        "question": 62,
+        "text": "delete [ ] ;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 246,
+    "fields": {
+        "question": 63,
+        "text": "NULL",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 247,
+    "fields": {
+        "question": 63,
+        "text": "Reference",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 248,
+    "fields": {
+        "question": 63,
+        "text": "Address",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 249,
+    "fields": {
+        "question": 63,
+        "text": "Dereference",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 250,
+    "fields": {
+        "question": 64,
+        "text": "Pointer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 251,
+    "fields": {
+        "question": 64,
+        "text": "Integer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 252,
+    "fields": {
+        "question": 64,
+        "text": "New",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 253,
+    "fields": {
+        "question": 64,
+        "text": "Array",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 254,
+    "fields": {
+        "question": 65,
+        "text": "A pointer holds the address.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 255,
+    "fields": {
+        "question": 65,
+        "text": "A pointer is a function.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 256,
+    "fields": {
+        "question": 65,
+        "text": "A pointer is a keyword.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 257,
+    "fields": {
+        "question": 65,
+        "text": "A pointer is a data type.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 258,
+    "fields": {
+        "question": 66,
+        "text": "Garbage Collection",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 259,
+    "fields": {
+        "question": 66,
+        "text": "Memory Collapse",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 260,
+    "fields": {
+        "question": 66,
+        "text": "Nothing",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 261,
+    "fields": {
+        "question": 66,
+        "text": "Memory Leakage",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 262,
+    "fields": {
+        "question": 67,
+        "text": "A pointer can point to another pointer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 263,
+    "fields": {
+        "question": 67,
+        "text": "The second pointer points to the address of the first pointer",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 264,
+    "fields": {
+        "question": 67,
+        "text": "Multiple dereference is used to get an access to the specific value",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 265,
+    "fields": {
+        "question": 67,
+        "text": "Assigned to other function pointers",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 266,
+    "fields": {
+        "question": 68,
+        "text": "int** arr = new int* [n];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 267,
+    "fields": {
+        "question": 68,
+        "text": "int* arr = new int* [n];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 268,
+    "fields": {
+        "question": 68,
+        "text": "int** arr = new int** [n];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 269,
+    "fields": {
+        "question": 68,
+        "text": "int* arr = new int** [n];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 270,
+    "fields": {
+        "question": 69,
+        "text": "10",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 271,
+    "fields": {
+        "question": 69,
+        "text": "0x7FF (This would print the memory address)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 272,
+    "fields": {
+        "question": 69,
+        "text": "Error (No errors)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 273,
+    "fields": {
+        "question": 69,
+        "text": "\" \" (Empty string, not integer)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 274,
+    "fields": {
+        "question": 70,
+        "text": "Increases readability of program",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 275,
+    "fields": {
+        "question": 70,
+        "text": "Helps it easier to modify code",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 276,
+    "fields": {
+        "question": 70,
+        "text": "Reduces complexities",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 277,
+    "fields": {
+        "question": 70,
+        "text": "None of the answers (All are advantages)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 278,
+    "fields": {
+        "question": 71,
+        "text": "typecast (Casts type, not alias)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 279,
+    "fields": {
+        "question": 71,
+        "text": "typedef",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 280,
+    "fields": {
+        "question": 71,
+        "text": "define (Used for preprocessor directives, not data types)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 281,
+    "fields": {
+        "question": 71,
+        "text": "const (For constant values, not aliases)",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 282,
+    "fields": {
+        "question": 72,
+        "text": "Contain address of function",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 283,
+    "fields": {
+        "question": 72,
+        "text": "Like array name is address of first element",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 284,
+    "fields": {
+        "question": 72,
+        "text": "Function name is starting address of code",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 285,
+    "fields": {
+        "question": 72,
+        "text": "Can not point to Void function",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 286,
+    "fields": {
+        "question": 73,
+        "text": "Passed to functions",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 287,
+    "fields": {
+        "question": 73,
+        "text": "Returned from functions",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 288,
+    "fields": {
+        "question": 73,
+        "text": "Stored in arrays",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 289,
+    "fields": {
+        "question": 73,
+        "text": "Assigned to other arrays pointers",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 290,
+    "fields": {
+        "question": 74,
+        "text": "strtok",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 291,
+    "fields": {
+        "question": 74,
+        "text": "strcpy",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 292,
+    "fields": {
+        "question": 74,
+        "text": "strcat",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 293,
+    "fields": {
+        "question": 74,
+        "text": "strupp",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 294,
+    "fields": {
+        "question": 75,
+        "text": "strcmp",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 295,
+    "fields": {
+        "question": 75,
+        "text": "strtok",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 296,
+    "fields": {
+        "question": 75,
+        "text": "strcpy",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 297,
+    "fields": {
+        "question": 75,
+        "text": "strcat",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 298,
+    "fields": {
+        "question": 76,
+        "text": "fun",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 299,
+    "fields": {
+        "question": 76,
+        "text": "funforfuns",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 300,
+    "fields": {
+        "question": 76,
+        "text": "funs",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 301,
+    "fields": {
+        "question": 76,
+        "text": "for",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 302,
+    "fields": {
+        "question": 76,
+        "text": "forfuns",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 303,
+    "fields": {
+        "question": 77,
+        "text": "coding is easy",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 304,
+    "fields": {
+        "question": 77,
+        "text": "coding is",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 305,
+    "fields": {
+        "question": 77,
+        "text": "easy",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 306,
+    "fields": {
+        "question": 77,
+        "text": "coding iseasy",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 307,
+    "fields": {
+        "question": 78,
+        "text": "Self Referential Structure",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 308,
+    "fields": {
+        "question": 78,
+        "text": "Nested Structure",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 309,
+    "fields": {
+        "question": 78,
+        "text": "Array of Structure",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 310,
+    "fields": {
+        "question": 78,
+        "text": "Structure of Structure",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 311,
+    "fields": {
+        "question": 79,
+        "text": "another structure",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 312,
+    "fields": {
+        "question": 79,
+        "text": "array",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 313,
+    "fields": {
+        "question": 79,
+        "text": "Function",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 314,
+    "fields": {
+        "question": 79,
+        "text": "None",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 315,
+    "fields": {
+        "question": 80,
+        "text": "objects",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 316,
+    "fields": {
+        "question": 80,
+        "text": "members",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 317,
+    "fields": {
+        "question": 80,
+        "text": "data",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 318,
+    "fields": {
+        "question": 80,
+        "text": "None of the mentioned",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 319,
+    "fields": {
+        "question": 81,
+        "text": "All members must be of the same type.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 320,
+    "fields": {
+        "question": 81,
+        "text": "Members can be initialized on one line of code.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 321,
+    "fields": {
+        "question": 81,
+        "text": "Each member must be passed individually.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 322,
+    "fields": {
+        "question": 81,
+        "text": "Functions cannot accept structs as parameters.",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 323,
+    "fields": {
+        "question": 82,
+        "text": "b->var;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 324,
+    "fields": {
+        "question": 82,
+        "text": "b.var;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 325,
+    "fields": {
+        "question": 82,
+        "text": "b-var;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 326,
+    "fields": {
+        "question": 82,
+        "text": "b>var;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 327,
+    "fields": {
+        "question": 83,
+        "text": "struct foo;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 328,
+    "fields": {
+        "question": 83,
+        "text": "foo var;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 329,
+    "fields": {
+        "question": 83,
+        "text": "foo;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 330,
+    "fields": {
+        "question": 83,
+        "text": "int foo;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 331,
+    "fields": {
+        "question": 84,
+        "text": "8",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 332,
+    "fields": {
+        "question": 84,
+        "text": "4",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 333,
+    "fields": {
+        "question": 84,
+        "text": "6",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 334,
+    "fields": {
+        "question": 84,
+        "text": "12",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 335,
+    "fields": {
+        "question": 85,
+        "text": "3",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 336,
+    "fields": {
+        "question": 85,
+        "text": "1",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 337,
+    "fields": {
+        "question": 85,
+        "text": "2",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 338,
+    "fields": {
+        "question": 85,
+        "text": "13",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 339,
+    "fields": {
+        "question": 36,
+        "text": "int array[0];",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.answeroption",
+    "pk": 340,
+    "fields": {
+        "question": 44,
+        "text": "array;",
+        "image": ""
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "answer": 2
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 2,
+    "fields": {
+        "question": 2,
+        "answer": 8
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 3,
+    "fields": {
+        "question": 3,
+        "answer": 12
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 4,
+    "fields": {
+        "question": 4,
+        "answer": 13
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 5,
+    "fields": {
+        "question": 5,
+        "answer": 19
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 6,
+    "fields": {
+        "question": 6,
+        "answer": 24
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 7,
+    "fields": {
+        "question": 7,
+        "answer": 28
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 8,
+    "fields": {
+        "question": 8,
+        "answer": 30
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 9,
+    "fields": {
+        "question": 9,
+        "answer": 35
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 10,
+    "fields": {
+        "question": 10,
+        "answer": 39
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 11,
+    "fields": {
+        "question": 11,
+        "answer": 44
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 12,
+    "fields": {
+        "question": 12,
+        "answer": 45
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 13,
+    "fields": {
+        "question": 13,
+        "answer": 51
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 14,
+    "fields": {
+        "question": 14,
+        "answer": 52
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 15,
+    "fields": {
+        "question": 15,
+        "answer": 57
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 16,
+    "fields": {
+        "question": 16,
+        "answer": 61
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 17,
+    "fields": {
+        "question": 17,
+        "answer": 67
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 18,
+    "fields": {
+        "question": 18,
+        "answer": 71
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 19,
+    "fields": {
+        "question": 19,
+        "answer": 76
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 20,
+    "fields": {
+        "question": 20,
+        "answer": 77
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 21,
+    "fields": {
+        "question": 21,
+        "answer": 83
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 22,
+    "fields": {
+        "question": 22,
+        "answer": 88
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 23,
+    "fields": {
+        "question": 23,
+        "answer": 90
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 24,
+    "fields": {
+        "question": 24,
+        "answer": 93
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 25,
+    "fields": {
+        "question": 25,
+        "answer": 98
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 26,
+    "fields": {
+        "question": 26,
+        "answer": 101
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 27,
+    "fields": {
+        "question": 27,
+        "answer": 105
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 28,
+    "fields": {
+        "question": 28,
+        "answer": 110
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 29,
+    "fields": {
+        "question": 29,
+        "answer": 114
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 30,
+    "fields": {
+        "question": 30,
+        "answer": 117
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 31,
+    "fields": {
+        "question": 31,
+        "answer": 122
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 32,
+    "fields": {
+        "question": 32,
+        "answer": 128
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 33,
+    "fields": {
+        "question": 33,
+        "answer": 130
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 34,
+    "fields": {
+        "question": 34,
+        "answer": 134
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 35,
+    "fields": {
+        "question": 35,
+        "answer": 137
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 36,
+    "fields": {
+        "question": 36,
+        "answer": 143
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 37,
+    "fields": {
+        "question": 37,
+        "answer": 144
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 38,
+    "fields": {
+        "question": 38,
+        "answer": 149
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 39,
+    "fields": {
+        "question": 39,
+        "answer": 152
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 40,
+    "fields": {
+        "question": 40,
+        "answer": 158
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 41,
+    "fields": {
+        "question": 41,
+        "answer": 159
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 42,
+    "fields": {
+        "question": 42,
+        "answer": 163
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 43,
+    "fields": {
+        "question": 43,
+        "answer": 167
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 44,
+    "fields": {
+        "question": 44,
+        "answer": 171
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 45,
+    "fields": {
+        "question": 45,
+        "answer": 175
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 46,
+    "fields": {
+        "question": 46,
+        "answer": 178
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 47,
+    "fields": {
+        "question": 47,
+        "answer": 182
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 48,
+    "fields": {
+        "question": 48,
+        "answer": 187
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 49,
+    "fields": {
+        "question": 49,
+        "answer": 190
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 50,
+    "fields": {
+        "question": 50,
+        "answer": 194
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 51,
+    "fields": {
+        "question": 51,
+        "answer": 198
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 52,
+    "fields": {
+        "question": 52,
+        "answer": 202
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 53,
+    "fields": {
+        "question": 53,
+        "answer": 206
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 54,
+    "fields": {
+        "question": 54,
+        "answer": 210
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 55,
+    "fields": {
+        "question": 55,
+        "answer": 214
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 56,
+    "fields": {
+        "question": 56,
+        "answer": 218
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 57,
+    "fields": {
+        "question": 57,
+        "answer": 224
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 58,
+    "fields": {
+        "question": 58,
+        "answer": 228
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 59,
+    "fields": {
+        "question": 59,
+        "answer": 233
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 60,
+    "fields": {
+        "question": 60,
+        "answer": 237
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 61,
+    "fields": {
+        "question": 61,
+        "answer": 240
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 62,
+    "fields": {
+        "question": 62,
+        "answer": 243
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 63,
+    "fields": {
+        "question": 63,
+        "answer": 249
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 64,
+    "fields": {
+        "question": 64,
+        "answer": 250
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 65,
+    "fields": {
+        "question": 65,
+        "answer": 254
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 66,
+    "fields": {
+        "question": 66,
+        "answer": 261
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 67,
+    "fields": {
+        "question": 67,
+        "answer": 265
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 68,
+    "fields": {
+        "question": 68,
+        "answer": 266
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 69,
+    "fields": {
+        "question": 69,
+        "answer": 270
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 70,
+    "fields": {
+        "question": 70,
+        "answer": 277
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 71,
+    "fields": {
+        "question": 71,
+        "answer": 279
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 72,
+    "fields": {
+        "question": 72,
+        "answer": 285
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 73,
+    "fields": {
+        "question": 73,
+        "answer": 289
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 74,
+    "fields": {
+        "question": 74,
+        "answer": 293
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 75,
+    "fields": {
+        "question": 75,
+        "answer": 297
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 76,
+    "fields": {
+        "question": 76,
+        "answer": 298
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 77,
+    "fields": {
+        "question": 77,
+        "answer": 303
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 78,
+    "fields": {
+        "question": 78,
+        "answer": 308
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 79,
+    "fields": {
+        "question": 79,
+        "answer": 314
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 80,
+    "fields": {
+        "question": 80,
+        "answer": 316
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 81,
+    "fields": {
+        "question": 81,
+        "answer": 321
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 82,
+    "fields": {
+        "question": 82,
+        "answer": 324
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 83,
+    "fields": {
+        "question": 83,
+        "answer": 328
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 84,
+    "fields": {
+        "question": 84,
+        "answer": 331
+    }
+},
+{
+    "model": "tests_for_exams.correctanswer",
+    "pk": 85,
+    "fields": {
+        "question": 85,
+        "answer": 335
+    }
+},
+{
+    "model": "tests_for_exams.test",
+    "pk": 1,
+    "fields": {
+        "name": "IPC Test 1",
+        "created_at": "2024-05-11T12:31:49.152Z",
+        "questions": [
+            4,
+            5,
+            6,
+            7,
+            9,
+            12,
+            16,
+            17,
+            19,
+            21,
+            24,
+            27,
+            30,
+            34,
+            38,
+            44,
+            45,
+            47,
+            49,
+            52,
+            53,
+            59,
+            61,
+            66,
+            68,
+            73,
+            77,
+            81,
+            84,
+            85
+        ]
+    }
+},
+{
+    "model": "tests_for_exams.test",
+    "pk": 2,
+    "fields": {
+        "name": "IPC Test 2",
+        "created_at": "2024-05-11T16:59:32.478Z",
+        "questions": [
+            1,
+            7,
+            11,
+            14,
+            16,
+            17,
+            19,
+            22,
+            23,
+            33,
+            35,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            48,
+            52,
+            55,
+            56,
+            57,
+            59,
+            60,
+            71,
+            76,
+            77,
+            78,
+            80
+        ]
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "question": 4,
+        "selected_answer": 13
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "question": 5,
+        "selected_answer": 19
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "question": 6,
+        "selected_answer": 24
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "question": 7,
+        "selected_answer": 28
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "question": 9,
+        "selected_answer": 35
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "question": 12,
+        "selected_answer": 45
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "question": 16,
+        "selected_answer": 61
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 8,
+    "fields": {
+        "user": 1,
+        "question": 17,
+        "selected_answer": 67
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 9,
+    "fields": {
+        "user": 1,
+        "question": 19,
+        "selected_answer": 76
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 10,
+    "fields": {
+        "user": 1,
+        "question": 21,
+        "selected_answer": 83
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 11,
+    "fields": {
+        "user": 1,
+        "question": 24,
+        "selected_answer": 93
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 12,
+    "fields": {
+        "user": 1,
+        "question": 27,
+        "selected_answer": 105
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 13,
+    "fields": {
+        "user": 1,
+        "question": 30,
+        "selected_answer": 117
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 14,
+    "fields": {
+        "user": 1,
+        "question": 34,
+        "selected_answer": 134
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 15,
+    "fields": {
+        "user": 1,
+        "question": 38,
+        "selected_answer": 149
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 16,
+    "fields": {
+        "user": 1,
+        "question": 44,
+        "selected_answer": 171
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 17,
+    "fields": {
+        "user": 1,
+        "question": 45,
+        "selected_answer": 175
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 18,
+    "fields": {
+        "user": 1,
+        "question": 47,
+        "selected_answer": 182
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 19,
+    "fields": {
+        "user": 1,
+        "question": 49,
+        "selected_answer": 190
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 20,
+    "fields": {
+        "user": 1,
+        "question": 52,
+        "selected_answer": 202
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 21,
+    "fields": {
+        "user": 1,
+        "question": 53,
+        "selected_answer": 206
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 22,
+    "fields": {
+        "user": 1,
+        "question": 59,
+        "selected_answer": 233
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 23,
+    "fields": {
+        "user": 1,
+        "question": 61,
+        "selected_answer": 240
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 24,
+    "fields": {
+        "user": 1,
+        "question": 66,
+        "selected_answer": 261
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 25,
+    "fields": {
+        "user": 1,
+        "question": 68,
+        "selected_answer": 266
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 26,
+    "fields": {
+        "user": 1,
+        "question": 73,
+        "selected_answer": 289
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 27,
+    "fields": {
+        "user": 1,
+        "question": 77,
+        "selected_answer": 303
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 28,
+    "fields": {
+        "user": 1,
+        "question": 81,
+        "selected_answer": 321
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 29,
+    "fields": {
+        "user": 1,
+        "question": 84,
+        "selected_answer": 331
+    }
+},
+{
+    "model": "tests_for_exams.useranswer",
+    "pk": 30,
+    "fields": {
+        "user": 1,
+        "question": 85,
+        "selected_answer": 335
+    }
+}
+]

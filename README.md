@@ -71,7 +71,7 @@ http://127.0.0.1:8000/admin/login/?next=/admin/
 ```
 
 ```html
-Login: Admin
+Login: admin
 Password: 123
 ```
 

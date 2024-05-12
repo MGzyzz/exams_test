@@ -16806,309 +16806,347 @@
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
-    "pk": 1,
-    "fields": {
-        "user": 1,
-        "question": 108,
-        "selected_answer": 469
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 2,
-    "fields": {
-        "user": 1,
-        "question": 111,
-        "selected_answer": 484
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 3,
-    "fields": {
-        "user": 1,
-        "question": 121,
-        "selected_answer": 534
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 4,
-    "fields": {
-        "user": 1,
-        "question": 122,
-        "selected_answer": 539
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 5,
-    "fields": {
-        "user": 1,
-        "question": 126,
-        "selected_answer": 559
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 6,
-    "fields": {
-        "user": 1,
-        "question": 142,
-        "selected_answer": 639
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 7,
-    "fields": {
-        "user": 1,
-        "question": 160,
-        "selected_answer": 729
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 8,
-    "fields": {
-        "user": 1,
-        "question": 166,
-        "selected_answer": 759
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 9,
-    "fields": {
-        "user": 1,
-        "question": 168,
-        "selected_answer": 769
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 10,
-    "fields": {
-        "user": 1,
-        "question": 170,
-        "selected_answer": 779
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 11,
     "fields": {
-        "user": 1,
-        "question": 172,
-        "selected_answer": 789
+        "name": "Психология Test 1",
+        "created_at": "2023-12-26T17:08:52.556Z",
+        "questions": [
+            15,
+            17,
+            18,
+            20,
+            25,
+            27,
+            29,
+            30,
+            31,
+            33,
+            35,
+            38,
+            39,
+            42,
+            52,
+            56,
+            58,
+            65,
+            66,
+            68,
+            69,
+            75,
+            81,
+            83,
+            85,
+            88,
+            99,
+            101,
+            103,
+            105
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 12,
     "fields": {
-        "user": 1,
-        "question": 174,
-        "selected_answer": 799
+        "name": "Психология Test 2",
+        "created_at": "2023-12-26T17:42:15.602Z",
+        "questions": [
+            1,
+            3,
+            5,
+            6,
+            8,
+            10,
+            11,
+            12,
+            13,
+            19,
+            21,
+            23,
+            24,
+            28,
+            34,
+            36,
+            50,
+            51,
+            53,
+            54,
+            57,
+            64,
+            67,
+            70,
+            77,
+            79,
+            82,
+            91,
+            95,
+            97
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 13,
     "fields": {
-        "user": 1,
-        "question": 178,
-        "selected_answer": 819
+        "name": "Психология Test 3",
+        "created_at": "2023-12-26T17:52:48.865Z",
+        "questions": [
+            4,
+            7,
+            22,
+            26,
+            32,
+            37,
+            40,
+            43,
+            44,
+            47,
+            48,
+            49,
+            55,
+            59,
+            60,
+            61,
+            62,
+            63,
+            71,
+            73,
+            74,
+            76,
+            78,
+            80,
+            84,
+            87,
+            89,
+            98,
+            100,
+            102
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 14,
     "fields": {
-        "user": 1,
-        "question": 179,
-        "selected_answer": 824
+        "name": "Философия Test 4",
+        "created_at": "2023-12-28T05:34:27.179Z",
+        "questions": [
+            110,
+            127,
+            129,
+            132,
+            134,
+            137,
+            156,
+            157,
+            158,
+            167,
+            171,
+            172,
+            184,
+            199,
+            212,
+            219,
+            239,
+            240,
+            249,
+            253,
+            255,
+            256,
+            259,
+            266,
+            273,
+            290,
+            292,
+            299,
+            301,
+            302
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 15,
     "fields": {
-        "user": 1,
-        "question": 190,
-        "selected_answer": 879
+        "name": "Философия Test 5",
+        "created_at": "2023-12-28T07:09:17.219Z",
+        "questions": [
+            108,
+            111,
+            120,
+            124,
+            130,
+            131,
+            139,
+            147,
+            150,
+            155,
+            158,
+            164,
+            167,
+            176,
+            190,
+            195,
+            197,
+            199,
+            200,
+            205,
+            209,
+            210,
+            229,
+            240,
+            257,
+            259,
+            271,
+            291,
+            303,
+            305
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 16,
     "fields": {
-        "user": 1,
-        "question": 205,
-        "selected_answer": 954
+        "name": "Психология Test 6",
+        "created_at": "2023-12-28T07:59:35.514Z",
+        "questions": [
+            9,
+            14,
+            16,
+            41,
+            45,
+            46,
+            72,
+            86,
+            90,
+            92,
+            93,
+            94,
+            96,
+            104
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 17,
     "fields": {
-        "user": 1,
-        "question": 222,
-        "selected_answer": 1039
+        "name": "Философия Test 7",
+        "created_at": "2023-12-28T07:59:40.778Z",
+        "questions": [
+            109,
+            118,
+            127,
+            130,
+            131,
+            133,
+            136,
+            142,
+            166,
+            174,
+            177,
+            186,
+            191,
+            196,
+            198,
+            201,
+            203,
+            212,
+            218,
+            235,
+            240,
+            242,
+            247,
+            251,
+            255,
+            256,
+            268,
+            279,
+            282,
+            299
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 18,
     "fields": {
-        "user": 1,
-        "question": 229,
-        "selected_answer": 1074
+        "name": "Философия Test 8",
+        "created_at": "2023-12-28T08:07:11.942Z",
+        "questions": [
+            110,
+            111,
+            113,
+            115,
+            116,
+            125,
+            134,
+            137,
+            146,
+            159,
+            171,
+            173,
+            177,
+            179,
+            180,
+            204,
+            227,
+            238,
+            241,
+            243,
+            244,
+            258,
+            260,
+            264,
+            265,
+            275,
+            280,
+            284,
+            286,
+            289
+        ]
     }
 },
 {
-    "model": "tests_for_exams.useranswer",
+    "model": "tests_for_exams.test",
     "pk": 19,
     "fields": {
-        "user": 1,
-        "question": 230,
-        "selected_answer": 1079
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 20,
-    "fields": {
-        "user": 1,
-        "question": 233,
-        "selected_answer": 1094
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 21,
-    "fields": {
-        "user": 1,
-        "question": 243,
-        "selected_answer": 1144
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 22,
-    "fields": {
-        "user": 1,
-        "question": 248,
-        "selected_answer": 1169
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 23,
-    "fields": {
-        "user": 1,
-        "question": 249,
-        "selected_answer": 1174
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 24,
-    "fields": {
-        "user": 1,
-        "question": 258,
-        "selected_answer": 1219
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 25,
-    "fields": {
-        "user": 1,
-        "question": 267,
-        "selected_answer": 1264
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 26,
-    "fields": {
-        "user": 1,
-        "question": 276,
-        "selected_answer": 1309
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 27,
-    "fields": {
-        "user": 1,
-        "question": 277,
-        "selected_answer": 1314
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 28,
-    "fields": {
-        "user": 1,
-        "question": 279,
-        "selected_answer": 1324
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 29,
-    "fields": {
-        "user": 1,
-        "question": 290,
-        "selected_answer": 1379
-    }
-},
-{
-    "model": "tests_for_exams.useranswer",
-    "pk": 30,
-    "fields": {
-        "user": 1,
-        "question": 298,
-        "selected_answer": 1419
-    }
-},
-{
-    "model": "accounts.user",
-    "pk": 1,
-    "fields": {
-        "password": "pbkdf2_sha256$720000$5L3tYmekvC3cnww8yLIdf1$LoRJ9QyHI+SCTzdF7+UXuoRQYquxUHjjufxMH2oaYZg=",
-        "last_login": "2023-12-26T12:50:09.133Z",
-        "is_superuser": true,
-        "username": "admin",
-        "first_name": "",
-        "last_name": "",
-        "email": "admin@mail.ru",
-        "is_staff": true,
-        "is_active": true,
-        "date_joined": "2023-12-09T17:09:33.411Z",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "accounts.user",
-    "pk": 2,
-    "fields": {
-        "password": "root1234",
-        "last_login": null,
-        "is_superuser": false,
-        "username": "Check_one",
-        "first_name": "",
-        "last_name": "",
-        "email": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2023-12-09T17:10:03Z",
-        "groups": [],
-        "user_permissions": []
+        "name": "Философия Test 9",
+        "created_at": "2023-12-28T08:07:23.573Z",
+        "questions": [
+            110,
+            111,
+            115,
+            118,
+            120,
+            121,
+            128,
+            131,
+            132,
+            133,
+            137,
+            173,
+            175,
+            188,
+            202,
+            213,
+            218,
+            223,
+            227,
+            228,
+            247,
+            250,
+            261,
+            270,
+            279,
+            282,
+            294,
+            299,
+            303,
+            305
+        ]
     }
 }
 ]

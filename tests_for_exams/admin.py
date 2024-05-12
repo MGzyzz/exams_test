@@ -13,6 +13,7 @@ class AnswerOptionAdmin(admin.ModelAdmin):
 class QuestionOptionAdmin(admin.ModelAdmin):
     list_display = ('id', 'text')
     list_filter = ('id',)
+    search_fields = ('text',)
 
 
 class CorrectAnswerOptionAdmin(admin.ModelAdmin):

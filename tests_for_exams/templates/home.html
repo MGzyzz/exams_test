@@ -4,19 +4,24 @@
     <div class="container mt-4">
         <h1 class="text-center mb-4">Добро пожаловать на главную страницу</h1>
 
-        <div class="text-center mb-4">
-            <div class="row align-items-center">
-                <div class="col-md-3">
-                    <a href="{% url 'generate_questions' %}" class="btn btn-primary">Создать Тест по Психологии</a>
-                </div>
-                <div class="col-md-3">
-                    <a href="{% url 'generate_philosophy_questions' %}" class="btn btn-secondary">Создать Тест по
-                        Философии</a>
-                </div>
-            </div>
-        </div>
+
 
         {% if tests %}
+            <div class="text-center mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <a href="{% url 'generate_questions' %}" class="btn btn-primary">Создать Тест по Психологии</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="{% url 'generate_philosophy_questions' %}" class="btn btn-secondary">Создать Тест по
+                            Философии</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="{% url 'generate_ipc' %}" class="btn btn-secondary">Создать Тест по
+                            IPC Test</a>
+                    </div>
+                </div>
+            </div>
             <div class="list-group">
                 {% for test in tests %}
                     <a href="{% url 'test_detail' test.id %}" class="list-group-item list-group-item-action">
@@ -24,16 +29,33 @@
                     </a>
                 {% endfor %}
             </div>
+{#            <div class="row mt-3">#}
+{#                <div class="col-md-3">#}
+{#                    <a href="{% url 'answer_docx' %}" class="btn btn-secondary">Загрузить ответы по Психологии</a>#}
+{#                    <a href="{% url 'question_and_answer' %}" class="btn btn-secondary mt-3">Загрузить вопросы с#}
+{#                        вариантами#}
+{#                        ответов по Психологии</a>#}
+{##}
+{#                </div>#}
+{#            </div>#}
+{#            <div class="row mt-3">#}
+{#                <div class="col-md-3">#}
+{#                    <a href="{% url 'answer_docx' %}" class="btn btn-secondary">Загрузить ответы по Философии</a>#}
+{#                    <a href="{% url 'question_and_answer' %}" class="btn btn-secondary mt-3">Загрузить вопросы с#}
+{#                        вариантами#}
+{#                        ответов по Философии</a>#}
+{##}
+{#                </div>#}
+{#                <div class="col-md-3">#}
+{#                    <a href="{% url 'answer_docx' %}" class="btn btn-secondary">Загрузить ответы по Философии</a>#}
+{#                    <a href="{% url 'question_and_answer' %}" class="btn btn-secondary mt-3">Загрузить вопросы с#}
+{#                        вариантами#}
+{#                        ответов по Математическому Анализу</a>#}
+{##}
+{#                </div>#}
+{#            </div>#}
         {% else %}
             <p class="text-center">Тесты пока не созданы.</p>
         {% endif %}
-        <div class="row mt-3">
-            <div class="col-md-3">
-                <a href="{% url 'answer_docx' %}" class="btn btn-secondary">Загрузить ответы по Психологии</a>
-                <a href="{% url 'question_and_answer' %}" class="btn btn-secondary mt-3">Загрузить вопросы с вариантами
-                    ответов по Психологии</a>
-
-            </div>
-        </div>
     </div>
 {% endblock %}

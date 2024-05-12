@@ -1,11 +1,11 @@
-import random
-
+from random import shuffle
 from django.http import HttpResponse
+from django.urls import reverse_lazy
 from docx import Document
 from django.contrib import messages
 from django.shortcuts import redirect
 from django.views import View
-from django.views.generic import ListView, TemplateView, DetailView
+from django.views.generic import ListView, TemplateView, DetailView, DeleteView
 from random import sample
 
 from tests_for_exams.models import Question, AnswerOption, CorrectAnswer, Test, UserAnswer, Subject
@@ -54,7 +54,12 @@ class GenerateTestView(View):
         all_questions = Question.objects.filter(subject=psychology_subject).exclude(id__in=used_question_ids)
 
         questions_count = min(30, all_questions.count())
+
+        # Выбираем случайные вопросы
         selected_questions = sample(list(all_questions), questions_count)
+
+        # Перемешиваем выбранные вопросы
+        shuffle(selected_questions)
 
         test_name = "Психология Test {}".format(Test.objects.count() + 1)
         test = Test.objects.create(name=test_name)
@@ -75,6 +80,18 @@ class GeneratePhilosophyTestView(View):
 
         return redirect('home')
 
+
+class GenerateIPCTestView(View):
+    def get(self, request, *args, **kwargs):
+        # Получение объекта предмета "Философия"
+        philosophy_subject = Subject.objects.get(name="IPC")
+
+        questions = Question.objects.filter(subject=philosophy_subject).order_by('?')[:30]
+
+        test = Test.objects.create(name="IPC Test {}".format(Test.objects.count() + 1))
+        test.questions.add(*questions)
+
+        return redirect('home')
 
 class TestDetailView(DetailView):
     model = Test
@@ -104,9 +121,16 @@ class TestResultView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(TestResultView, self).get_context_data(**kwargs)
         test_id = self.kwargs['test_id']
-        user_answers = UserAnswer.objects.filter(user=self.request.user, question__test=test_id)
+        test = Test.objects.get(id=test_id)
+        test_questions_ids = test.questions.values_list('id', flat=True)
 
-        total_questions = Test.objects.get(id=test_id).questions.count()
+        # Фильтрация ответов пользователя, которые относятся к вопросам из конкретного теста
+        user_answers = UserAnswer.objects.filter(
+            user=self.request.user,
+            question__id__in=test_questions_ids
+        )
+
+        total_questions = test.questions.count()
         correct_answers_count = 0
 
         questions_with_answers = []
@@ -175,13 +199,12 @@ def generate_docx_with_correct_answers_by_subject(request, subject_name='Psychol
     return response
 
 
-def generate_docx_with_questions_and_answers(request, subject_name='Psychology'):
+def generate_docx_with_questions_and_answers(request, subject_name='Philosophy'):
     document = Document()
     document.add_heading(f'Список Вопросов и Ответов по Предмету: {subject_name}', 0)
-
+    print(document)
     # Fetch the subject by name
     subject = Subject.objects.get(name=subject_name)
-
     # Fetch questions related to the subject
     questions = Question.objects.filter(subject=subject)
     for question in questions:
@@ -200,3 +223,8 @@ def generate_docx_with_questions_and_answers(request, subject_name='Psychology')
     document.save(response)
 
     return response
+
+
+class DeleteTestView(DeleteView):
+    model = Test
+    success_url = reverse_lazy('home')

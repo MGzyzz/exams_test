@@ -4780,5 +4780,23 @@
         "question": 85,
         "selected_answer": 335
     }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$8tSCcz6DOVm3kfzHutMvJE$CMlflI9ASvkoI/YUUlnLNmSQDZxjagQVNT2Cpp6JZHU=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-12T10:50:12.801Z",
+        "groups": [],
+        "user_permissions": []
+    }
 }
 ]
